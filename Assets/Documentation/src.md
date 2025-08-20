@@ -18,4 +18,4 @@ To open the BRMM from source, you'll need:
 
 Instructions to install things via `nuget` can be found [here](https://learn.microsoft.com/en-us/nuget/install-nuget-client-tools)
 
-Once you're done with everything, you should be able to simply open BrmmSlim.sln.
+Once you're done with everything, you should be able to simply open BRMM.sln.
