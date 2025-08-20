@@ -49,7 +49,7 @@ You can run BRMM from source by using [these instructions](https://github.com/Co
 
 ### Uploading Mods:
 
-Any BRMK modder can upload their mod to BRMM via the [this website](https://beta.brmm.ovh)
+Any BRMK modder can upload their mod to BRMM via [this website](https://beta.brmm.ovh)
 
 ## Credits:
 - [TLM](https://github.com/anonymous-editor): For creating the first BRMM and giving the idea behind it.
