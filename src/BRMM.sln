@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35617.110
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BRMM", "BRMM\BRMM.csproj", "{E7A93BD2-C2EB-467C-83CC-C2A1864D5F92}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "BRMMSetup", "BRMMSetup\BRMMSetup.vdproj", "{5D279D74-C79E-98A9-3229-72C9A1977DB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BRMMUpdater", "BRMMUpdater\BRMMUpdater.csproj", "{933BD76F-A0F7-4DFB-B004-DA57435B03C7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E7A93BD2-C2EB-467C-83CC-C2A1864D5F92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7A93BD2-C2EB-467C-83CC-C2A1864D5F92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7A93BD2-C2EB-467C-83CC-C2A1864D5F92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7A93BD2-C2EB-467C-83CC-C2A1864D5F92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D279D74-C79E-98A9-3229-72C9A1977DB0}.Debug|Any CPU.ActiveCfg = Debug
+		{5D279D74-C79E-98A9-3229-72C9A1977DB0}.Release|Any CPU.ActiveCfg = Release
+		{933BD76F-A0F7-4DFB-B004-DA57435B03C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{933BD76F-A0F7-4DFB-B004-DA57435B03C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{933BD76F-A0F7-4DFB-B004-DA57435B03C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{933BD76F-A0F7-4DFB-B004-DA57435B03C7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BBB9C2FA-80A1-4402-B3B1-4599000E6060}
+	EndGlobalSection
+EndGlobal

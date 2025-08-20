@@ -1,0 +1,226 @@
+C:\Users\StevToPL\Desktop\BRMM\BRMM\bin\Debug\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\StevToPL\Desktop\BRMM\BRMM\bin\Debug\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\StevToPL\Desktop\BRMM\BRMM\bin\Debug\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\StevToPL\Desktop\BRMM\BRMM\bin\Debug\BRMM.exe.config
+C:\Users\StevToPL\Desktop\BRMM\BRMM\bin\Debug\BRMM.exe
+C:\Users\StevToPL\Desktop\BRMM\BRMM\bin\Debug\BRMM.pdb
+C:\Users\StevToPL\Desktop\BRMM\BRMM\bin\Debug\Microsoft.Web.WebView2.Core.dll
+C:\Users\StevToPL\Desktop\BRMM\BRMM\bin\Debug\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\StevToPL\Desktop\BRMM\BRMM\bin\Debug\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\StevToPL\Desktop\BRMM\BRMM\bin\Debug\Microsoft.Web.WebView2.Core.xml
+C:\Users\StevToPL\Desktop\BRMM\BRMM\bin\Debug\Microsoft.Web.WebView2.WinForms.xml
+C:\Users\StevToPL\Desktop\BRMM\BRMM\bin\Debug\Microsoft.Web.WebView2.Wpf.xml
+C:\Users\StevToPL\Desktop\BRMM\BRMM\obj\Debug\BRMM.csproj.AssemblyReference.cache
+C:\Users\StevToPL\Desktop\BRMM\BRMM\obj\Debug\BRMM.Main.resources
+C:\Users\StevToPL\Desktop\BRMM\BRMM\obj\Debug\BRMM.Properties.Resources.resources
+C:\Users\StevToPL\Desktop\BRMM\BRMM\obj\Debug\BRMM.csproj.GenerateResource.cache
+C:\Users\StevToPL\Desktop\BRMM\BRMM\obj\Debug\BRMM.csproj.CoreCompileInputs.cache
+C:\Users\StevToPL\Desktop\BRMM\BRMM\obj\Debug\BRMM.csproj.Up2Date
+C:\Users\StevToPL\Desktop\BRMM\BRMM\obj\Debug\BRMM.exe
+C:\Users\StevToPL\Desktop\BRMM\BRMM\obj\Debug\BRMM.pdb
+C:\Users\StevToPL\Desktop\BRMM\BRMM\bin\Debug\DiscordRPC.dll
+C:\Users\StevToPL\Desktop\BRMM\BRMM\bin\Debug\Newtonsoft.Json.dll
+C:\Users\StevToPL\Desktop\BRMM\BRMM\bin\Debug\DiscordRPC.pdb
+C:\Users\StevToPL\Desktop\BRMM\BRMM\bin\Debug\DiscordRPC.xml
+C:\Users\StevToPL\Desktop\BRMM\BRMM\bin\Debug\Newtonsoft.Json.xml
+C:\Users\StevToPL\Desktop\BRMM\BRMM\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\StevToPL\Desktop\BRMM\BRMM\bin\Debug\System.Buffers.dll
+C:\Users\StevToPL\Desktop\BRMM\BRMM\bin\Debug\System.IO.Pipelines.dll
+C:\Users\StevToPL\Desktop\BRMM\BRMM\bin\Debug\System.Memory.dll
+C:\Users\StevToPL\Desktop\BRMM\BRMM\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\StevToPL\Desktop\BRMM\BRMM\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\StevToPL\Desktop\BRMM\BRMM\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\StevToPL\Desktop\BRMM\BRMM\bin\Debug\System.Text.Json.dll
+C:\Users\StevToPL\Desktop\BRMM\BRMM\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\StevToPL\Desktop\BRMM\BRMM\bin\Debug\System.ValueTuple.dll
+C:\Users\StevToPL\Desktop\BRMM\BRMM\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\StevToPL\Desktop\BRMM\BRMM\bin\Debug\System.Buffers.xml
+C:\Users\StevToPL\Desktop\BRMM\BRMM\bin\Debug\System.IO.Pipelines.xml
+C:\Users\StevToPL\Desktop\BRMM\BRMM\bin\Debug\System.Memory.xml
+C:\Users\StevToPL\Desktop\BRMM\BRMM\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\StevToPL\Desktop\BRMM\BRMM\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\StevToPL\Desktop\BRMM\BRMM\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\StevToPL\Desktop\BRMM\BRMM\bin\Debug\System.Text.Json.xml
+C:\Users\StevToPL\Desktop\BRMM\BRMM\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\StevToPL\Desktop\BRMM\BRMM\bin\Debug\System.ValueTuple.xml
+C:\Users\Mr Microcotroller\Desktop\brmm\BRMM\bin\Debug\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\Mr Microcotroller\Desktop\brmm\BRMM\bin\Debug\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\Mr Microcotroller\Desktop\brmm\BRMM\bin\Debug\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\Mr Microcotroller\Desktop\brmm\BRMM\bin\Debug\BRMM.exe.config
+C:\Users\Mr Microcotroller\Desktop\brmm\BRMM\bin\Debug\BRMM.exe
+C:\Users\Mr Microcotroller\Desktop\brmm\BRMM\bin\Debug\BRMM.pdb
+C:\Users\Mr Microcotroller\Desktop\brmm\BRMM\bin\Debug\DiscordRPC.dll
+C:\Users\Mr Microcotroller\Desktop\brmm\BRMM\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Mr Microcotroller\Desktop\brmm\BRMM\bin\Debug\Microsoft.Web.WebView2.Core.dll
+C:\Users\Mr Microcotroller\Desktop\brmm\BRMM\bin\Debug\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\Mr Microcotroller\Desktop\brmm\BRMM\bin\Debug\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\Mr Microcotroller\Desktop\brmm\BRMM\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Mr Microcotroller\Desktop\brmm\BRMM\bin\Debug\System.Buffers.dll
+C:\Users\Mr Microcotroller\Desktop\brmm\BRMM\bin\Debug\System.IO.Pipelines.dll
+C:\Users\Mr Microcotroller\Desktop\brmm\BRMM\bin\Debug\System.Memory.dll
+C:\Users\Mr Microcotroller\Desktop\brmm\BRMM\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Mr Microcotroller\Desktop\brmm\BRMM\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Mr Microcotroller\Desktop\brmm\BRMM\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Mr Microcotroller\Desktop\brmm\BRMM\bin\Debug\System.Text.Json.dll
+C:\Users\Mr Microcotroller\Desktop\brmm\BRMM\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Mr Microcotroller\Desktop\brmm\BRMM\bin\Debug\System.ValueTuple.dll
+C:\Users\Mr Microcotroller\Desktop\brmm\BRMM\bin\Debug\DiscordRPC.pdb
+C:\Users\Mr Microcotroller\Desktop\brmm\BRMM\bin\Debug\DiscordRPC.xml
+C:\Users\Mr Microcotroller\Desktop\brmm\BRMM\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Mr Microcotroller\Desktop\brmm\BRMM\bin\Debug\Microsoft.Web.WebView2.Core.xml
+C:\Users\Mr Microcotroller\Desktop\brmm\BRMM\bin\Debug\Microsoft.Web.WebView2.WinForms.xml
+C:\Users\Mr Microcotroller\Desktop\brmm\BRMM\bin\Debug\Microsoft.Web.WebView2.Wpf.xml
+C:\Users\Mr Microcotroller\Desktop\brmm\BRMM\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Mr Microcotroller\Desktop\brmm\BRMM\bin\Debug\System.Buffers.xml
+C:\Users\Mr Microcotroller\Desktop\brmm\BRMM\bin\Debug\System.IO.Pipelines.xml
+C:\Users\Mr Microcotroller\Desktop\brmm\BRMM\bin\Debug\System.Memory.xml
+C:\Users\Mr Microcotroller\Desktop\brmm\BRMM\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Mr Microcotroller\Desktop\brmm\BRMM\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Mr Microcotroller\Desktop\brmm\BRMM\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Mr Microcotroller\Desktop\brmm\BRMM\bin\Debug\System.Text.Json.xml
+C:\Users\Mr Microcotroller\Desktop\brmm\BRMM\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Mr Microcotroller\Desktop\brmm\BRMM\bin\Debug\System.ValueTuple.xml
+C:\Users\Mr Microcotroller\Desktop\brmm\BRMM\obj\Debug\BRMM.csproj.AssemblyReference.cache
+C:\Users\Mr Microcotroller\Desktop\brmm\BRMM\obj\Debug\BRMM.Main.resources
+C:\Users\Mr Microcotroller\Desktop\brmm\BRMM\obj\Debug\BRMM.Properties.Resources.resources
+C:\Users\Mr Microcotroller\Desktop\brmm\BRMM\obj\Debug\BRMM.csproj.GenerateResource.cache
+C:\Users\Mr Microcotroller\Desktop\brmm\BRMM\obj\Debug\BRMM.csproj.CoreCompileInputs.cache
+C:\Users\Mr Microcotroller\Desktop\brmm\BRMM\obj\Debug\BRMM.csproj.Up2Date
+C:\Users\Mr Microcotroller\Desktop\brmm\BRMM\obj\Debug\BRMM.exe
+C:\Users\Mr Microcotroller\Desktop\brmm\BRMM\obj\Debug\BRMM.pdb
+C:\Users\StevToPL\Desktop\new site btmm gitea\brmm\BRMM\bin\Debug\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\StevToPL\Desktop\new site btmm gitea\brmm\BRMM\bin\Debug\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\StevToPL\Desktop\new site btmm gitea\brmm\BRMM\bin\Debug\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\StevToPL\Desktop\new site btmm gitea\brmm\BRMM\bin\Debug\BRMM.exe.config
+C:\Users\StevToPL\Desktop\new site btmm gitea\brmm\BRMM\bin\Debug\BRMM.exe
+C:\Users\StevToPL\Desktop\new site btmm gitea\brmm\BRMM\bin\Debug\BRMM.pdb
+C:\Users\StevToPL\Desktop\new site btmm gitea\brmm\BRMM\bin\Debug\DiscordRPC.dll
+C:\Users\StevToPL\Desktop\new site btmm gitea\brmm\BRMM\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\StevToPL\Desktop\new site btmm gitea\brmm\BRMM\bin\Debug\Microsoft.Web.WebView2.Core.dll
+C:\Users\StevToPL\Desktop\new site btmm gitea\brmm\BRMM\bin\Debug\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\StevToPL\Desktop\new site btmm gitea\brmm\BRMM\bin\Debug\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\StevToPL\Desktop\new site btmm gitea\brmm\BRMM\bin\Debug\Newtonsoft.Json.dll
+C:\Users\StevToPL\Desktop\new site btmm gitea\brmm\BRMM\bin\Debug\System.Buffers.dll
+C:\Users\StevToPL\Desktop\new site btmm gitea\brmm\BRMM\bin\Debug\System.IO.Pipelines.dll
+C:\Users\StevToPL\Desktop\new site btmm gitea\brmm\BRMM\bin\Debug\System.Memory.dll
+C:\Users\StevToPL\Desktop\new site btmm gitea\brmm\BRMM\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\StevToPL\Desktop\new site btmm gitea\brmm\BRMM\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\StevToPL\Desktop\new site btmm gitea\brmm\BRMM\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\StevToPL\Desktop\new site btmm gitea\brmm\BRMM\bin\Debug\System.Text.Json.dll
+C:\Users\StevToPL\Desktop\new site btmm gitea\brmm\BRMM\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\StevToPL\Desktop\new site btmm gitea\brmm\BRMM\bin\Debug\System.ValueTuple.dll
+C:\Users\StevToPL\Desktop\new site btmm gitea\brmm\BRMM\bin\Debug\DiscordRPC.pdb
+C:\Users\StevToPL\Desktop\new site btmm gitea\brmm\BRMM\bin\Debug\DiscordRPC.xml
+C:\Users\StevToPL\Desktop\new site btmm gitea\brmm\BRMM\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\StevToPL\Desktop\new site btmm gitea\brmm\BRMM\bin\Debug\Microsoft.Web.WebView2.Core.xml
+C:\Users\StevToPL\Desktop\new site btmm gitea\brmm\BRMM\bin\Debug\Microsoft.Web.WebView2.WinForms.xml
+C:\Users\StevToPL\Desktop\new site btmm gitea\brmm\BRMM\bin\Debug\Microsoft.Web.WebView2.Wpf.xml
+C:\Users\StevToPL\Desktop\new site btmm gitea\brmm\BRMM\bin\Debug\Newtonsoft.Json.xml
+C:\Users\StevToPL\Desktop\new site btmm gitea\brmm\BRMM\bin\Debug\System.Buffers.xml
+C:\Users\StevToPL\Desktop\new site btmm gitea\brmm\BRMM\bin\Debug\System.IO.Pipelines.xml
+C:\Users\StevToPL\Desktop\new site btmm gitea\brmm\BRMM\bin\Debug\System.Memory.xml
+C:\Users\StevToPL\Desktop\new site btmm gitea\brmm\BRMM\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\StevToPL\Desktop\new site btmm gitea\brmm\BRMM\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\StevToPL\Desktop\new site btmm gitea\brmm\BRMM\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\StevToPL\Desktop\new site btmm gitea\brmm\BRMM\bin\Debug\System.Text.Json.xml
+C:\Users\StevToPL\Desktop\new site btmm gitea\brmm\BRMM\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\StevToPL\Desktop\new site btmm gitea\brmm\BRMM\bin\Debug\System.ValueTuple.xml
+C:\Users\StevToPL\Desktop\new site btmm gitea\brmm\BRMM\obj\Debug\BRMM.csproj.AssemblyReference.cache
+C:\Users\StevToPL\Desktop\new site btmm gitea\brmm\BRMM\obj\Debug\BRMM.Main.resources
+C:\Users\StevToPL\Desktop\new site btmm gitea\brmm\BRMM\obj\Debug\BRMM.Properties.Resources.resources
+C:\Users\StevToPL\Desktop\new site btmm gitea\brmm\BRMM\obj\Debug\BRMM.csproj.GenerateResource.cache
+C:\Users\StevToPL\Desktop\new site btmm gitea\brmm\BRMM\obj\Debug\BRMM.csproj.CoreCompileInputs.cache
+C:\Users\StevToPL\Desktop\new site btmm gitea\brmm\BRMM\obj\Debug\BRMM.csproj.Up2Date
+C:\Users\StevToPL\Desktop\new site btmm gitea\brmm\BRMM\obj\Debug\BRMM.exe
+C:\Users\StevToPL\Desktop\new site btmm gitea\brmm\BRMM\obj\Debug\BRMM.pdb
+C:\Users\Mr Microcotroller\Desktop\new site btmm gitea 2\brmm\BRMM\bin\Debug\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\Mr Microcotroller\Desktop\new site btmm gitea 2\brmm\BRMM\bin\Debug\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\Mr Microcotroller\Desktop\new site btmm gitea 2\brmm\BRMM\bin\Debug\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\Mr Microcotroller\Desktop\new site btmm gitea 2\brmm\BRMM\bin\Debug\BRMM.exe.config
+C:\Users\Mr Microcotroller\Desktop\new site btmm gitea 2\brmm\BRMM\bin\Debug\BRMM.exe
+C:\Users\Mr Microcotroller\Desktop\new site btmm gitea 2\brmm\BRMM\bin\Debug\BRMM.pdb
+C:\Users\Mr Microcotroller\Desktop\new site btmm gitea 2\brmm\BRMM\bin\Debug\DiscordRPC.dll
+C:\Users\Mr Microcotroller\Desktop\new site btmm gitea 2\brmm\BRMM\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Mr Microcotroller\Desktop\new site btmm gitea 2\brmm\BRMM\bin\Debug\Microsoft.Web.WebView2.Core.dll
+C:\Users\Mr Microcotroller\Desktop\new site btmm gitea 2\brmm\BRMM\bin\Debug\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\Mr Microcotroller\Desktop\new site btmm gitea 2\brmm\BRMM\bin\Debug\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\Mr Microcotroller\Desktop\new site btmm gitea 2\brmm\BRMM\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Mr Microcotroller\Desktop\new site btmm gitea 2\brmm\BRMM\bin\Debug\System.Buffers.dll
+C:\Users\Mr Microcotroller\Desktop\new site btmm gitea 2\brmm\BRMM\bin\Debug\System.IO.Pipelines.dll
+C:\Users\Mr Microcotroller\Desktop\new site btmm gitea 2\brmm\BRMM\bin\Debug\System.Memory.dll
+C:\Users\Mr Microcotroller\Desktop\new site btmm gitea 2\brmm\BRMM\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Mr Microcotroller\Desktop\new site btmm gitea 2\brmm\BRMM\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Mr Microcotroller\Desktop\new site btmm gitea 2\brmm\BRMM\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Mr Microcotroller\Desktop\new site btmm gitea 2\brmm\BRMM\bin\Debug\System.Text.Json.dll
+C:\Users\Mr Microcotroller\Desktop\new site btmm gitea 2\brmm\BRMM\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Mr Microcotroller\Desktop\new site btmm gitea 2\brmm\BRMM\bin\Debug\System.ValueTuple.dll
+C:\Users\Mr Microcotroller\Desktop\new site btmm gitea 2\brmm\BRMM\bin\Debug\DiscordRPC.pdb
+C:\Users\Mr Microcotroller\Desktop\new site btmm gitea 2\brmm\BRMM\bin\Debug\DiscordRPC.xml
+C:\Users\Mr Microcotroller\Desktop\new site btmm gitea 2\brmm\BRMM\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Mr Microcotroller\Desktop\new site btmm gitea 2\brmm\BRMM\bin\Debug\Microsoft.Web.WebView2.Core.xml
+C:\Users\Mr Microcotroller\Desktop\new site btmm gitea 2\brmm\BRMM\bin\Debug\Microsoft.Web.WebView2.WinForms.xml
+C:\Users\Mr Microcotroller\Desktop\new site btmm gitea 2\brmm\BRMM\bin\Debug\Microsoft.Web.WebView2.Wpf.xml
+C:\Users\Mr Microcotroller\Desktop\new site btmm gitea 2\brmm\BRMM\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Mr Microcotroller\Desktop\new site btmm gitea 2\brmm\BRMM\bin\Debug\System.Buffers.xml
+C:\Users\Mr Microcotroller\Desktop\new site btmm gitea 2\brmm\BRMM\bin\Debug\System.IO.Pipelines.xml
+C:\Users\Mr Microcotroller\Desktop\new site btmm gitea 2\brmm\BRMM\bin\Debug\System.Memory.xml
+C:\Users\Mr Microcotroller\Desktop\new site btmm gitea 2\brmm\BRMM\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Mr Microcotroller\Desktop\new site btmm gitea 2\brmm\BRMM\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Mr Microcotroller\Desktop\new site btmm gitea 2\brmm\BRMM\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Mr Microcotroller\Desktop\new site btmm gitea 2\brmm\BRMM\bin\Debug\System.Text.Json.xml
+C:\Users\Mr Microcotroller\Desktop\new site btmm gitea 2\brmm\BRMM\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Mr Microcotroller\Desktop\new site btmm gitea 2\brmm\BRMM\bin\Debug\System.ValueTuple.xml
+C:\Users\Mr Microcotroller\Desktop\new site btmm gitea 2\brmm\BRMM\obj\Debug\BRMM.csproj.AssemblyReference.cache
+C:\Users\Mr Microcotroller\Desktop\new site btmm gitea 2\brmm\BRMM\obj\Debug\BRMM.Main.resources
+C:\Users\Mr Microcotroller\Desktop\new site btmm gitea 2\brmm\BRMM\obj\Debug\BRMM.Properties.Resources.resources
+C:\Users\Mr Microcotroller\Desktop\new site btmm gitea 2\brmm\BRMM\obj\Debug\BRMM.csproj.GenerateResource.cache
+C:\Users\Mr Microcotroller\Desktop\new site btmm gitea 2\brmm\BRMM\obj\Debug\BRMM.csproj.CoreCompileInputs.cache
+C:\Users\Mr Microcotroller\Desktop\new site btmm gitea 2\brmm\BRMM\obj\Debug\BRMM.csproj.Up2Date
+C:\Users\Mr Microcotroller\Desktop\new site btmm gitea 2\brmm\BRMM\obj\Debug\BRMM.exe
+C:\Users\Mr Microcotroller\Desktop\new site btmm gitea 2\brmm\BRMM\obj\Debug\BRMM.pdb
+C:\Users\StevToPL\Desktop\new site btmm gitea 2\brmm\BRMM\bin\Debug\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\StevToPL\Desktop\new site btmm gitea 2\brmm\BRMM\bin\Debug\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\StevToPL\Desktop\new site btmm gitea 2\brmm\BRMM\bin\Debug\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\StevToPL\Desktop\new site btmm gitea 2\brmm\BRMM\bin\Debug\BRMM.exe.config
+C:\Users\StevToPL\Desktop\new site btmm gitea 2\brmm\BRMM\bin\Debug\BRMM.exe
+C:\Users\StevToPL\Desktop\new site btmm gitea 2\brmm\BRMM\bin\Debug\BRMM.pdb
+C:\Users\StevToPL\Desktop\new site btmm gitea 2\brmm\BRMM\bin\Debug\DiscordRPC.dll
+C:\Users\StevToPL\Desktop\new site btmm gitea 2\brmm\BRMM\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\StevToPL\Desktop\new site btmm gitea 2\brmm\BRMM\bin\Debug\Microsoft.Web.WebView2.Core.dll
+C:\Users\StevToPL\Desktop\new site btmm gitea 2\brmm\BRMM\bin\Debug\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\StevToPL\Desktop\new site btmm gitea 2\brmm\BRMM\bin\Debug\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\StevToPL\Desktop\new site btmm gitea 2\brmm\BRMM\bin\Debug\Newtonsoft.Json.dll
+C:\Users\StevToPL\Desktop\new site btmm gitea 2\brmm\BRMM\bin\Debug\System.Buffers.dll
+C:\Users\StevToPL\Desktop\new site btmm gitea 2\brmm\BRMM\bin\Debug\System.IO.Pipelines.dll
+C:\Users\StevToPL\Desktop\new site btmm gitea 2\brmm\BRMM\bin\Debug\System.Memory.dll
+C:\Users\StevToPL\Desktop\new site btmm gitea 2\brmm\BRMM\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\StevToPL\Desktop\new site btmm gitea 2\brmm\BRMM\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\StevToPL\Desktop\new site btmm gitea 2\brmm\BRMM\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\StevToPL\Desktop\new site btmm gitea 2\brmm\BRMM\bin\Debug\System.Text.Json.dll
+C:\Users\StevToPL\Desktop\new site btmm gitea 2\brmm\BRMM\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\StevToPL\Desktop\new site btmm gitea 2\brmm\BRMM\bin\Debug\System.ValueTuple.dll
+C:\Users\StevToPL\Desktop\new site btmm gitea 2\brmm\BRMM\bin\Debug\DiscordRPC.pdb
+C:\Users\StevToPL\Desktop\new site btmm gitea 2\brmm\BRMM\bin\Debug\DiscordRPC.xml
+C:\Users\StevToPL\Desktop\new site btmm gitea 2\brmm\BRMM\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\StevToPL\Desktop\new site btmm gitea 2\brmm\BRMM\bin\Debug\Microsoft.Web.WebView2.Core.xml
+C:\Users\StevToPL\Desktop\new site btmm gitea 2\brmm\BRMM\bin\Debug\Microsoft.Web.WebView2.WinForms.xml
+C:\Users\StevToPL\Desktop\new site btmm gitea 2\brmm\BRMM\bin\Debug\Microsoft.Web.WebView2.Wpf.xml
+C:\Users\StevToPL\Desktop\new site btmm gitea 2\brmm\BRMM\bin\Debug\Newtonsoft.Json.xml
+C:\Users\StevToPL\Desktop\new site btmm gitea 2\brmm\BRMM\bin\Debug\System.Buffers.xml
+C:\Users\StevToPL\Desktop\new site btmm gitea 2\brmm\BRMM\bin\Debug\System.IO.Pipelines.xml
+C:\Users\StevToPL\Desktop\new site btmm gitea 2\brmm\BRMM\bin\Debug\System.Memory.xml
+C:\Users\StevToPL\Desktop\new site btmm gitea 2\brmm\BRMM\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\StevToPL\Desktop\new site btmm gitea 2\brmm\BRMM\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\StevToPL\Desktop\new site btmm gitea 2\brmm\BRMM\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\StevToPL\Desktop\new site btmm gitea 2\brmm\BRMM\bin\Debug\System.Text.Json.xml
+C:\Users\StevToPL\Desktop\new site btmm gitea 2\brmm\BRMM\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\StevToPL\Desktop\new site btmm gitea 2\brmm\BRMM\bin\Debug\System.ValueTuple.xml
+C:\Users\StevToPL\Desktop\new site btmm gitea 2\brmm\BRMM\obj\Debug\BRMM.csproj.AssemblyReference.cache
+C:\Users\StevToPL\Desktop\new site btmm gitea 2\brmm\BRMM\obj\Debug\BRMM.Main.resources
+C:\Users\StevToPL\Desktop\new site btmm gitea 2\brmm\BRMM\obj\Debug\BRMM.Properties.Resources.resources
+C:\Users\StevToPL\Desktop\new site btmm gitea 2\brmm\BRMM\obj\Debug\BRMM.csproj.GenerateResource.cache
+C:\Users\StevToPL\Desktop\new site btmm gitea 2\brmm\BRMM\obj\Debug\BRMM.csproj.CoreCompileInputs.cache
+C:\Users\StevToPL\Desktop\new site btmm gitea 2\brmm\BRMM\obj\Debug\BRMM.csproj.Up2Date
+C:\Users\StevToPL\Desktop\new site btmm gitea 2\brmm\BRMM\obj\Debug\BRMM.exe
+C:\Users\StevToPL\Desktop\new site btmm gitea 2\brmm\BRMM\obj\Debug\BRMM.pdb
+C:\Users\StevToPL\Desktop\new site btmm gitea 2\brmm\BRMM\obj\Debug\BRMM.exe.config
