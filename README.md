@@ -50,7 +50,6 @@ You can run BRMM from source by using [these instructions](https://github.com/Co
 ### Uploading Mods:
 
 Any BRMK modder can upload their mod to BRMM via the [this website](https://beta.brmm.ovh)
-[Here](https://github.com/ControllerPog/BRMM/blob/main/Assets/Documentation/BrmmBot.md) are instructions on how to upload and update your mod on BRMM.
 
 ## Credits:
 - [TLM](https://github.com/anonymous-editor): For creating the first BRMM and giving the idea behind it.
