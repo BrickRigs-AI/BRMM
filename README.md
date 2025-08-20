@@ -31,7 +31,7 @@ For those concerned about this app, a [privacy policy](https://github.com/Contro
 
 ## Getting Started with BRMM:
 
-To start with BRMM, you need to download the BrmmSetup.msi from the 'Releases' page or from this link.
+To start with BRMM, you need to download the BrmmSetup.msi from the 'Releases' page or from this [link](https://github.com/BrickRigs-AI/BRMM/releases/download/v0.3.1-alpha/BRMMSetup.msi).
 
 When you run the BRMM installer, you should see this:
 
