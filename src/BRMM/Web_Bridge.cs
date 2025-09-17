@@ -5,6 +5,7 @@ using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.Drawing;
 using System.IO;
 using System.IO.Compression;
 using System.Linq;
@@ -46,7 +47,7 @@ namespace BRMM
         public bool DCRPC { get; set; }
 
         public bool CDATA { get; set; }
-
+        public string FrameColor { get; set; }
         public string CTheme { get; set; }
         public bool FirstTime { get; set; }
     }
@@ -109,6 +110,34 @@ namespace BRMM
             main.token_gl = token;
             main.id_gl = id;
             main.Getdata();
+        }
+        public void UpdateFrameStyle(string colors)
+        {
+            try
+            {
+                if (string.IsNullOrWhiteSpace(colors)) return;
+
+                string[] rgb = colors.Split(',');
+                if (rgb.Length != 3) return;
+
+                int r = int.Parse(rgb[0].Trim());
+                int g = int.Parse(rgb[1].Trim());
+                int b = int.Parse(rgb[2].Trim());
+
+                string json = File.ReadAllText(Application.StartupPath + "/brmm.config");
+                var brmmconf = JsonConvert.DeserializeObject<brmmconfig>(json);
+
+                brmmconf.FrameColor = colors;
+
+                main.BackColor = Color.FromArgb(r, g, b);
+
+                string json2 = JsonConvert.SerializeObject(brmmconf, Formatting.Indented);
+                File.WriteAllText(Application.StartupPath + "/brmm.config", json2);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Błąd przy aktualizacji koloru: " + ex.Message);
+            }
         }
 
         public void UpdateConfig(bool DR,bool CD,string th, bool ft)
