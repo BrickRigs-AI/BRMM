@@ -20,7 +20,6 @@ using System.Threading.Tasks;
 using System.Web;
 using System.Windows.Forms;
 
-
 namespace BRMM
 {
     public partial class Main : Form
@@ -41,17 +40,18 @@ namespace BRMM
         private const int grip = 16;
 
         private const int caption = 32;
+
         [DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]
 
 
         private static extern IntPtr CreateRoundRectRgn
         (
-            int nLeftRect,        // x-coordinate of upper-left corner
-            int nTopRect,         // y-coordinate of upper-left corner
+            int nLeftRect,        // x-coordinate of upper-left corner 
+            int nTopRect,         // y-coordinate of upper-left corner 
             int nRightRect,       // x-coordinate of lower-right corner
             int nBottomRect,      // y-coordinate of lower-right corner
-            int nWidthEllipse,    // width of ellipse
-            int nHeightEllipse    // height of ellipse
+            int nWidthEllipse,    // width of ellipse                  
+            int nHeightEllipse    // height of ellipse                 
         );
 
 
@@ -151,7 +151,8 @@ namespace BRMM
                 {
                     web_Bridge.ConsoleLog("No args in URL");
                 }
-
+                
+                web_Bridge.ConsoleLog(Path.Combine(Application.StartupPath, "brmm.ico"));
                 if (!File.Exists(Application.StartupPath + "/brmm.config"))
                 {
                     brmmconfig conf = new brmmconfig();
