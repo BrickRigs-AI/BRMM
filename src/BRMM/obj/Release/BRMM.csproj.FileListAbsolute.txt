@@ -43,3 +43,5 @@ C:\Users\StevToPL\Desktop\new site btmm gitea 2\brmm\BRMM\obj\Release\BRMM.cspro
 C:\Users\StevToPL\Desktop\new site btmm gitea 2\brmm\BRMM\obj\Release\BRMM.csproj.Up2Date
 C:\Users\StevToPL\Desktop\new site btmm gitea 2\brmm\BRMM\obj\Release\BRMM.exe
 C:\Users\StevToPL\Desktop\new site btmm gitea 2\brmm\BRMM\obj\Release\BRMM.pdb
+C:\Users\StevToPL\Desktop\new site btmm gitea 2\brmm\BRMM\bin\Release\brmm.ico
+C:\Users\StevToPL\Desktop\new site btmm gitea 2\brmm\BRMM\obj\Release\BRMM.exe.config

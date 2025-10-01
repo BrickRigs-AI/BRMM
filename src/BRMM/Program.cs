@@ -28,6 +28,9 @@ namespace BRMM
             string protocol = "brmm";
             string appPath = Assembly.GetExecutingAssembly().Location;
 
+
+            //req fixing small exploits
+
             try
             {
                 using (RegistryKey key = Registry.CurrentUser.CreateSubKey($@"Software\Classes\{protocol}"))

@@ -16,10 +16,10 @@ using System.Runtime.InteropServices;
 using System.Security.Policy;
 using System.Text;
 using System.Text.Encodings.Web;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Web;
 using System.Windows.Forms;
-
 
 namespace BRMM
 {
@@ -31,6 +31,9 @@ namespace BRMM
         public string GamePath, SteamPath = "";
         public string id_gl, token_gl = "";
 
+        bool IsValidId(string id) => !string.IsNullOrEmpty(id) && Regex.IsMatch(id, @"^[A-Za-z0-9_-]{3,64}$");
+        bool IsValidToken(string token) => !string.IsNullOrEmpty(token) && token.Length <= 70;
+
         public bool CDATA, DRPC = false;
 
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
@@ -41,17 +44,18 @@ namespace BRMM
         private const int grip = 16;
 
         private const int caption = 32;
+
         [DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]
 
-
+        
         private static extern IntPtr CreateRoundRectRgn
         (
-            int nLeftRect,        // x-coordinate of upper-left corner
-            int nTopRect,         // y-coordinate of upper-left corner
+            int nLeftRect,        // x-coordinate of upper-left corner 
+            int nTopRect,         // y-coordinate of upper-left corner 
             int nRightRect,       // x-coordinate of lower-right corner
             int nBottomRect,      // y-coordinate of lower-right corner
-            int nWidthEllipse,    // width of ellipse
-            int nHeightEllipse    // height of ellipse
+            int nWidthEllipse,    // width of ellipse                  
+            int nHeightEllipse    // height of ellipse                 
         );
 
 
@@ -117,21 +121,28 @@ namespace BRMM
             {
                 if (args.Length > 0)
                 {
-                    Uri uri;
-                    try
-                    {
-                        uri = new Uri(args[0]);
-                    }
-                    catch
+                    if (!Uri.TryCreate(args[0], UriKind.Absolute, out Uri uri))
                     {
                         web_Bridge.ConsoleLog("Invalid URI");
                         return;
                     }
 
-                    NameValueCollection query = HttpUtility.ParseQueryString(uri.Query);
+                    var allowedSchemes = new HashSet<string>(StringComparer.OrdinalIgnoreCase) { "brmm", "https", "http" };
+                    if (!allowedSchemes.Contains(uri.Scheme))
+                    {
+                        web_Bridge.ConsoleLog($"Unsupported URI scheme: {uri.Scheme}");
+                        return;
+                    }
 
-                    string token = query["token"] ?? "null";
-                    string id = query["id"] ?? "null";
+                    NameValueCollection query = HttpUtility.ParseQueryString(uri.Query);
+                    string token = (query["token"] ?? string.Empty).Trim();
+                    string id = (query["id"] ?? string.Empty).Trim();
+
+                    if (!IsValidId(id) || !IsValidToken(token))
+                    {
+                        web_Bridge.ConsoleLog("Invalid id/token format");
+                        return;
+                    }
 
                     id_gl = id;
                     token_gl = token;
@@ -151,7 +162,8 @@ namespace BRMM
                 {
                     web_Bridge.ConsoleLog("No args in URL");
                 }
-
+                
+                web_Bridge.ConsoleLog(Path.Combine(Application.StartupPath, "brmm.ico"));
                 if (!File.Exists(Application.StartupPath + "/brmm.config"))
                 {
                     brmmconfig conf = new brmmconfig();
@@ -268,7 +280,7 @@ namespace BRMM
                 {
                     try
                     {
-                        using (HttpRequestMessage request = new HttpRequestMessage(HttpMethod.Head, "https://github.com/BrickRigs-AI/BRMM/releases/download/v0.3.3-alpha/Updater.zip"))
+                        using (HttpRequestMessage request = new HttpRequestMessage(HttpMethod.Head, "https://github.com/BrickRigs-AI/BRMM/releases/download/v0.4.3-alpha-merge/Updater.zip"))
                         using (HttpResponseMessage response = await client.SendAsync(request))
                         {
                             if (response.IsSuccessStatusCode)

@@ -224,3 +224,4 @@ C:\Users\StevToPL\Desktop\new site btmm gitea 2\brmm\BRMM\obj\Debug\BRMM.csproj.
 C:\Users\StevToPL\Desktop\new site btmm gitea 2\brmm\BRMM\obj\Debug\BRMM.exe
 C:\Users\StevToPL\Desktop\new site btmm gitea 2\brmm\BRMM\obj\Debug\BRMM.pdb
 C:\Users\StevToPL\Desktop\new site btmm gitea 2\brmm\BRMM\obj\Debug\BRMM.exe.config
+C:\Users\StevToPL\Desktop\new site btmm gitea 2\brmm\BRMM\bin\Debug\brmm.ico

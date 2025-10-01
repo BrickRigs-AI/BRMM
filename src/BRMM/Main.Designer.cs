@@ -66,7 +66,7 @@
             this.MinimumSize = new System.Drawing.Size(1500, 769);
             this.Name = "Main";
             this.Padding = new System.Windows.Forms.Padding(24, 25, 24, 25);
-            this.Text = "MainForm";
+            this.Text = "BRMM";
             this.TopMost = true;
             this.SizeChanged += new System.EventHandler(this.Main_SizeChanged);
             ((System.ComponentModel.ISupportInitialize)(this.webView21)).EndInit();

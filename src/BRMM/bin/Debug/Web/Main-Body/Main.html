@@ -40,12 +40,12 @@
             <div id="Modpackupdates" style="width: 100%; height: 100%; display: flex; justify-content: end; visibility: hidden;">
                 <img src="../BRMM Mod Card/assets/download_icon.svg" style="height: 80%; object-fit: contain; margin-right: 5px; margin-top: 7px; border-radius: 0.8rem;">
                 <div style="width: 200px; height: 80%; margin-top: 7px; align-items: center;">
-                    <div style="background-color: black; border-radius: 10px; width: 100%; height: 10px; margin-top: 10px;">
+                    <div style="background-color: var(--secondary-color); border-radius: 10px; width: 100%; height: 10px; margin-top: 10px;">
                         <div id="Barupdatestatusmodpack" style="background-color: #06c238; border-radius: 10px; width: 10%; height: 10px;">
 
                         </div>
                     </div>
-                    <p id="Textupdatemodpack" style="font-family: Poppins; font-weight: bold; color: #CCC; font-size: 13px;">Downloading mods 100%</p>
+                    <p id="Textupdatemodpack" style="font-family: Poppins; font-weight: bold; color: var(--text-color); font-size: 13px;">Downloading mods 100%</p>
                 </div>
             </div>
             <div onclick="showSection('Home')" class="Navbar_button">
@@ -67,7 +67,7 @@
             </div>
             <div id="Library_Modpacks" style="height: 100%; display: none;">
                 <div id="Search">
-                    <h1 style="font-size: 45px; text-align: center; font-family: Poppins;">  Welcome to your Library<br>  A place for your Modpacks to rest.</h1>
+                    <h1 style="font-size: 45px; text-align: center; font-family: Poppins; color: white;">  Welcome to your Library<br>  A place for your Modpacks to rest.</h1>
 
                     
                     <div class="Navigation_Search">
@@ -95,7 +95,7 @@
             </div>
             <div id="Search_Mods" style="height: 100%; display: none;">
                 <div id="Search">
-                    <h1 style="font-size: 45px; text-align: center; font-family: Poppins;">Lets Search Some new<br> Mods & Modpacks together.</h1>
+                    <h1 style="font-size: 45px; text-align: center; font-family: Poppins; color: white;">Lets Search Some new<br> Mods & Modpacks together.</h1>
                     
                     <div class="Navigation_Search">
                         <input id="searchInput_Search_Mods" placeholder="Search">
@@ -152,30 +152,31 @@
                     </div>
                 </div>
             </div>
+            
             <div id="Modpage" style="display: flex; justify-content: center; align-items: center; height: 100%; width: 100%;">
                 <div style="display: flex; height: 100%; width: calc(100% - 20px);">
-                    <div style="margin: 10px; width: 350px; height:  calc(100% - 10px); background-color: #101013; border-radius: 0.8rem; display: flex; flex-direction: column;">
+                    <div style="margin: 10px; width: 350px; height:  calc(100% - 10px); background-color: var(--primary-color); border-radius: 0.8rem; display: flex; flex-direction: column;">
                         <div id="PromoBRMTSERVER" style="overflow: hidden; margin-top: 10px; display: flex; justify-content: space-between; align-items: center; flex-direction: row; width: calc(100% - 10px); height: 120px;">
-                            <div style="margin-left: 10px; height: 120px; width: 100%; background-color: black; margin-right: 10x;border-radius: 0.8rem; display: flex; justify-content: center; align-items: center; flex-direction: column;">
+                            <div style="margin-left: 10px; height: 120px; width: 100%; background-color: var(--secondary-color); margin-right: 10x;border-radius: 0.8rem; display: flex; justify-content: center; align-items: center; flex-direction: column;">
                                 <h1 style="font-size: 20px;">Empty</h1>
-                                <p style="text-align: center; margin: 10px;">Consider adding links by clicking <a id="consideraddinglinks" style="color: #CCC; text-decoration: underline; cursor: pointer;">here</a></p>
+                                <p style="text-align: center; margin: 10px;">Consider adding links by clicking <a id="consideraddinglinks" style="color: var(--text-color); text-decoration: underline; cursor: pointer;">here</a></p>
                                 
                             </div>
 
                         </div>
                         <div id="ChangeHeightToREavleOTher" style="margin: 10px; margin-top: 10px; display: flex; justify-content: space-between; align-items: center; flex-direction: row; width: calc(100% - 20px); height: 120px;">
-                            <div id="PatreonLink" style="margin: 2px; height: 120px; width: 100%; background-color: black; margin-right: 10x;border-radius: 0.8rem; display: flex; justify-content: center; align-items: center;">
+                            <div id="PatreonLink" style="margin: 2px; height: 120px; width: 100%; background-color: var(--secondary-color); margin-right: 10x;border-radius: 0.8rem; display: flex; justify-content: center; align-items: center;">
                                 <img style="width: 50%; height: 50%; border-radius: 0.8rem;" src="../BRMM Mod Card/assets/patreon-icon.svg">
                             </div>
-                            <div id="BoostyLink" style="margin: 2px; height: 120px; width: 100%; background-color: black; margin-right: 10x;border-radius: 0.8rem; display: flex; justify-content: center; align-items: center;">
+                            <div id="BoostyLink" style="margin: 2px; height: 120px; width: 100%; background-color: var(--secondary-color); margin-right: 10x;border-radius: 0.8rem; display: flex; justify-content: center; align-items: center;">
                                 <img style="width: 50%; height: 50%; border-radius: 0.8rem;" src="../BRMM Mod Card/assets/Boosty_White.svg">
                             </div>
-                            <div id="DiscordLink" style="margin: 2px; height: 120px; width: 100%; background-color: black; margin-right: 10x;border-radius: 0.8rem; display: flex; justify-content: center; align-items: center;">
+                            <div id="DiscordLink" style="margin: 2px; height: 120px; width: 100%; background-color: var(--secondary-color); margin-right: 10x;border-radius: 0.8rem; display: flex; justify-content: center; align-items: center;">
                                 <img style="width: 50%; height: 50%; border-radius: 0.8rem;" src="../BRMM Mod Card/assets/discord-icon-svgrepo-com.svg">
                             </div>
 
                         </div>
-                        <button id="ModpageInstallModPage" style="margin: 10px; margin-top: 5px; border-radius: 0.8rem; background-color: black; border: none; color: white; height: 45px;">Install</button>
+                        <button id="ModpageInstallModPage" style="margin: 10px; margin-top: 5px; border-radius: 0.8rem; background-color: var(--secondary-color); border: none; color: var(--text-main); height: 45px;">Install</button>
                         <h2 style="margin: 10px; margin-top: 5px; width: 100%; text-align: left;">Creators</h2>
                         <hr style="width: calc(100% - 25px); margin-left: 10px;">
                         <div id="modpage_members" style="margin: 10px; width: calc(100% - 20px); height: calc(100% - 230px);">
@@ -183,7 +184,7 @@
                         </div>
                     </div>
                     <div style="width: 100%;">
-                        <div style="margin-top: 10px; width: calc(100% + 20px); height:  130px; background-color: #101013; border-radius: 0.8rem; display: flex;">
+                        <div style="margin-top: 10px; width: calc(100% + 20px); height:  130px; background-color: var(--primary-color); border-radius: 0.8rem; display: flex;">
                             <div id="modpage_imge" style="background-position: center; background-size: cover; width: 110px; height: 110px; margin: 10px;" class="pfp" src="../BRMM Mod Card/assets/crow_demo.gif"></div>
                             <div style="margin: 5px;">
                                 <h1 id="modpage_name" style="font-size: 38px;">ModName</h1>
@@ -192,17 +193,18 @@
                             </div>
                         </div>  
                         
-                        <div style="margin-top: 10px; width: calc(100% + 20px); height:  calc(100% - 150px); background-color: #101013; border-radius: 0.8rem; display: flex;">
-                        <div style="width: 100%; height: 100%; margin: 10px; margin-left: 30px;" id="preview"></div>
+                        <div style="margin-top: 10px; width: calc(100% + 20px); height:  calc(100% - 150px); background-color: var(--primary-color); border-radius: 0.8rem; display: flex;">
+                        <div style="width: 100%; margin: 10px; margin-left: 30px; overflow-y: scroll;" id="preview"></div>
 
                         </div>     
                     </div>         
                 </div>  
             </div>  
+
             <div id="Modpackpage" style="display: flex; justify-content: center; align-items: center; height: 100%; width: 100%;">
                 <div style="display: flex; height: 100%; margin-left: 10px; width: calc(100% - 30px);">
                     <div style="width: 100%;">
-                        <div style="margin-top: 10px; width: calc(100% + 20px); height:  130px; background-color: #101013; border-radius: 0.8rem; display: flex; justify-content: space-between;">
+                        <div style="margin-top: 10px; width: calc(100% + 20px); height:  130px; background-color: var(--primary-color); border-radius: 0.8rem; display: flex; justify-content: space-between;">
                             <div style="display: flex;">
                                 <img id="modpackpage_imge" style="width: 110px; height: 110px; margin: 10px;" class="pfp" src="../BRMM Mod Card/assets/brmm.png">
                                 <div style="margin: 5px;">
@@ -230,7 +232,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div style="margin-top: 10px; width: calc(100% + 20px); height:  calc(100% - 230px); padding-bottom: 5px; background-color: #101013; border-radius: 0.8rem; display: flex;">
+                        <div style="margin-top: 10px; width: calc(100% + 20px); height:  calc(100% - 230px); padding-bottom: 5px; background-color: var(--primary-color); border-radius: 0.8rem; display: flex;">
                             <div style="width: 100%; height: calc(100% - 15px); margin: 10px; overflow-y: scroll;" id="Mods_Modpack">
                                 <div style="display: flex; justify-content: center; align-items: center; flex-direction: column; text-align: center; height: 100%;">
                                     <h2 style="background-color: transparent; margin: 0px;">Looks like we are the only ones here</h2>
@@ -272,7 +274,7 @@
                     <h2>Color theme</h2>
                     <div id="Holder">
                         <p>Change the global launcher color theme.</p>
-                        <button>SOON</button>
+                        <button onclick="showSection('ChangeColors')">Edit</button>
                     </div>
                     <br>
                     <h2>Custom CSS</h2>
@@ -309,7 +311,7 @@
                     <br>
                     <h2>Ui Version</h2>
                     <div>
-                        <p style="color: #ccc;">1.0R.5F ●︎ by Brick Rigs Modded team</p>
+                        <p style="color: var(--text-color);">1.0R.5F ●︎ by Brick Rigs Modded team</p>
                     </div>
                 </div>
             </div>  
@@ -326,18 +328,67 @@
                 </div>
             </div>
             <div style="display: flex; justify-content: space-between;">
-                <button onclick="document.getElementById('AddModModpack').style.display = 'none'" style="background-color: #06c238; color: white; height: 35px;">Done</button>
+                <button onclick="document.getElementById('AddModModpack').style.display = 'none'" style="background-color: #06c238; color: var(--text-main); height: 35px;">Done</button>
             </div>
         </div>
     </div>
+    <div id="ChangeColors" style="display: none; position: absolute; width: 100%; height: 100%; justify-content: center; align-items: center; backdrop-filter: blur(2px); border-radius: 0.8rem;">
+        <div class="CreateModpack" style="width: 50%; height: 80%; overflow-y: scroll; max-height: 725px;">
+            <h2>Color themes</h2>
+                <div class="Holder_UI"  style="margin-bottom: 0px; padding-bottom: 0px;">
+                    <h1>Main Colors</h1>
+                    <hr>
+                    <br>
+                    <div id="Holder" style="display: flex; align-content: center; justify-content: center;">
+                        <div style="width: 100%; margin: 1%;">
+                            <input onchange="UpdateBRMMStyleLive()" style="padding: 0px; outline: none; border: none; color: transparent; height: 150px; margin: 0px; width: 100%; border: 1px solid var(--text-color);" type="color" id="PrimaryColor" name="PrimaryColor" value="#101013">
+                            <p style="padding: 0px; margin: 0px;  width: 100%; text-align: center;">Primary Color</p>
+                        </div>
+                        <div style="width: 100%; margin: 1%;">
+                            <input onchange="UpdateBRMMStyleLive()" style="padding: 0px; outline: none; border: none; color: transparent; height: 150px; margin: 0px; width: 100%; border: 1px solid var(--text-color);" type="color" id="SecondaryColor" name="SecondaryColor" value="#000000">
+                            <p style="padding: 0px; margin: 0px;  width: 100%; text-align: center;">Secondary Color</p>
+                        </div>
+                        <div style="width: 100%; margin: 1%;">
+                            <input onchange="UpdateBRMMStyleLive()" style="padding: 0px; outline: none; border: none; color: transparent; height: 150px; margin: 0px; width: 100%; border: 1px solid var(--text-color);" type="color" id="ThirdColor" name="ThirdColor" value="#1c1c20">
+                            <p style="padding: 0px; margin: 0px;  width: 100%; text-align: center;">Third Color</p>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+                <div class="Holder_UI" style="margin-bottom: 0px; padding-bottom: 0px; margin-top: 0px; padding-top: 0px;">
+                    <h1>Text colors</h1>
+                    <hr>
+                    <br>
+                    <div id="Holder" style="display: flex; align-content: center; justify-content: center;">
+                        <div style="width: 100%; margin: 1%;">
+                            <input onchange="UpdateBRMMStyleLive()" style="padding: 0px; outline: none; border: none; color: transparent; height: 150px; margin: 0px; width: 100%; border: 1px solid var(--text-color);" type="color" id="TextPrimaryColor" name="TextPrimaryColor" value="#FFFFFF">
+                            <p style="padding: 0px; margin: 0px;  width: 100%; text-align: center;">Primary Color</p>
+                        </div>
+                        <div style="width: 100%; margin: 1%;">
+                            <input onchange="UpdateBRMMStyleLive()" style="padding: 0px; outline: none; border: none; color: transparent; height: 150px; margin: 0px; width: 100%; border: 1px solid var(--text-color);" type="color" id="TextSecondaryColor" name="TextSecondaryColor" value="#CCCCCC">
+                            <p style="padding: 0px; margin: 0px;  width: 100%; text-align: center;">Secondary Color</p>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+            <div style="display: flex; justify-content: space-between; margin-bottom: 5px;">
+                <button onclick="BRMMStylesConfirm()" style="background-color: #06c238; color: var(--text-main);">confirm</button>
+                <button onclick="BRMMStylesReset()" style="background-color: red; color: var(--text-main); width: 85px;"><img src="../BRMM Mod Card/assets/delete.svg"></button>
+            </div>
+        </div>
+    </div>
+    <div id="FirstTimeinbrmm" style="display: flex; visibility: hidden;">
+        <div class="CreateModpack" id="Wlecomebrmmsvreenfirsttime" style="width: 500px; height: 355px;">
 
+        </div>
+    </div>
     <div id="Autoupdate" style="display: none; position: absolute;">
         <div class="CreateModpack">
             <h2>New BRMM Update</h2>
             <p style="text-align: center; width: 80%; margin: 0px; margin-left: 10%;">There is a new version of BRMM. Would you like to update?</p>
             <div style="display: flex; justify-content: space-between;">
                 <button onclick="document.getElementById('Autoupdate').style.display = 'none'">Later</button>
-                <button onclick="window.chrome.webview.hostObjects.dotnet.updateBRMM()" style="background-color: #06c238; color: white;">Update</button>
+                <button onclick="window.chrome.webview.hostObjects.dotnet.updateBRMM()" style="background-color: #06c238; color: var(--text-main);">Update</button>
             </div>
         </div>
     </div>
@@ -377,7 +428,7 @@
             </select>
             <div style="display: flex; justify-content: space-between;">
                 <button onclick="document.getElementById('CreateModpack').style.display = 'none'">Cancel</button>
-                <button onclick="CreateModpack()" style="background-color: #06c238; color: white;">Create</button>
+                <button onclick="CreateModpack()" style="background-color: #06c238; color: var(--text-main);">Create</button>
             </div>
         </div>
     </div>
@@ -427,7 +478,7 @@ function UpdateStyle(){
         if (match) {
             let [r, g, b] = match.slice(1).map(Number);
             if (r === 0 && g === 0 && b === 0) {
-                el.style.backgroundColor = "#ccc";
+                el.style.backgroundColor = "var(--text-color)";
             }
         }
     });
@@ -468,6 +519,66 @@ function UpdateSearchModpackPage() {
         document.getElementById("CardsHolder_Library_Modpacks").appendChild(createCard("",ModpacksLocal_prase.Name,ModpacksLocal_prase.Imge,"","","",ModpacksLocal_prase.Description,ModpacksLocal_prase.Version,ModpacksLocal_prase.Author,"","",1,ModpacksLocal_prase.modpack, ModpacksLocal_prase.Imge));
     });
 }
+
+function BRMMStylesConfirm(){
+    document.getElementById("ChangeColors").style.display = "none";
+    localStorage.setItem("PrimaryColor",document.getElementById("PrimaryColor").value);
+    localStorage.setItem("SecondaryColor",document.getElementById("SecondaryColor").value);
+    localStorage.setItem("ThirdColor",document.getElementById("ThirdColor").value);
+    localStorage.setItem("TextPrimaryColor",document.getElementById("TextPrimaryColor").value);
+    localStorage.setItem("TextSecondaryColor",document.getElementById("TextSecondaryColor").value);
+}
+
+function BRMMStylesReset(){
+    const root = document.documentElement;
+
+    root.style.setProperty("--primary-color", "#101013");
+    root.style.setProperty("--secondary-color", "#000000");
+    root.style.setProperty("--third-color", "#1c1c20");
+    root.style.setProperty("--text-main", "#FFFFFF");
+    root.style.setProperty("--text-color", "#CCCCCC");
+    document.getElementById("PrimaryColor").value = "#101013";
+    document.getElementById("SecondaryColor").value = "#000000";
+    document.getElementById("ThirdColor").value = "#1c1c20";
+    document.getElementById("TextPrimaryColor").value = "#FFFFFF";
+    document.getElementById("TextSecondaryColor").value = "#CCCCCC";
+
+    let hexColor = document.getElementById("SecondaryColor").value;
+
+    hexColor = hexColor.replace('#', '');
+
+    let r = parseInt(hexColor.substring(0, 2), 16);
+    let g = parseInt(hexColor.substring(2, 4), 16);
+    let b = parseInt(hexColor.substring(4, 6), 16);
+
+    window.chrome.webview.hostObjects.dotnet.UpdateFrameStyle(r + "," + g + "," + b);
+}
+
+function UpdateBRMMStyleLive(){
+    const root = document.documentElement;
+    let hexColor = document.getElementById("SecondaryColor").value;
+
+    hexColor = hexColor.replace('#', '');
+
+    let r = parseInt(hexColor.substring(0, 2), 16);
+    let g = parseInt(hexColor.substring(2, 4), 16);
+    let b = parseInt(hexColor.substring(4, 6), 16);
+
+    window.chrome.webview.hostObjects.dotnet.UpdateFrameStyle(r + "," + g + "," + b);
+
+    root.style.setProperty("--primary-color", document.getElementById("PrimaryColor").value);
+    root.style.setProperty("--secondary-color", document.getElementById("SecondaryColor").value);
+    root.style.setProperty("--third-color", document.getElementById("ThirdColor").value);
+    root.style.setProperty("--text-main", document.getElementById("TextPrimaryColor").value);
+    root.style.setProperty("--text-color", document.getElementById("TextSecondaryColor").value);
+
+    localStorage.setItem("PrimaryColor",document.getElementById("PrimaryColor").value);
+    localStorage.setItem("SecondaryColor",document.getElementById("SecondaryColor").value);
+    localStorage.setItem("ThirdColor",document.getElementById("ThirdColor").value);
+    localStorage.setItem("TextPrimaryColor",document.getElementById("TextPrimaryColor").value);
+    localStorage.setItem("TextSecondaryColor",document.getElementById("TextSecondaryColor").value);
+}
+
 function UpdateSearchPage() {
     const searchText = document.getElementById("searchInput_Search_Mods").value;
     const sortBy = document.getElementById("sortSelect_Search_Mods").value;
@@ -617,14 +728,14 @@ async function SettingsStartBRMM(id){
 
     if(id === 1){
         if(DCRPC == true){
-            document.getElementById(`DCRPC-button=`).style.backgroundColor = "black";
+            document.getElementById(`DCRPC-button=`).style.backgroundColor = "var(--secondary-color)";
             document.getElementById(`DCRPC-button-dot=`).style.backgroundColor = "#06c238";
             document.getElementById(`DCRPC-button-dot=`).style.marginTop = "40px";
             DCRPC = false;
         }
         else{
             document.getElementById(`DCRPC-button=`).style.backgroundColor = "#06c238";
-            document.getElementById(`DCRPC-button-dot=`).style.backgroundColor = "black";
+            document.getElementById(`DCRPC-button-dot=`).style.backgroundColor = "var(--secondary-color)";
             document.getElementById(`DCRPC-button-dot=`).style.marginTop = "0px";
             DCRPC = true;
         }
@@ -632,14 +743,14 @@ async function SettingsStartBRMM(id){
 
     if(id === 2){
         if(CDATA == true){
-            document.getElementById(`CDATA-button=`).style.backgroundColor = "black";
+            document.getElementById(`CDATA-button=`).style.backgroundColor = "var(--secondary-color)";
             document.getElementById(`CDATA-button-dot=`).style.backgroundColor = "#06c238";
             document.getElementById(`CDATA-button-dot=`).style.marginTop = "40px";
             CDATA = false;
         }
         else{
             document.getElementById(`CDATA-button=`).style.backgroundColor = "#06c238";
-            document.getElementById(`CDATA-button-dot=`).style.backgroundColor = "black";
+            document.getElementById(`CDATA-button-dot=`).style.backgroundColor = "var(--secondary-color)";
             document.getElementById(`CDATA-button-dot=`).style.marginTop = "0px";
             CDATA = true;
         }
@@ -704,19 +815,19 @@ async function OpenModpackPage(modpack) {
             for(var v = 0; v < modsList.length; v++){
                 const div = document.createElement('div');
                 div.innerHTML = `
-                    <div id="${modsList[v].permamenturl}-${modpack}" style="padding: 5px; width: calc(100% - 10px); height: 80px; background-color: black; border-radius: 0.8rem; display: flex; margin-top: 5px; margin-bottom: 5px; ">
+                    <div id="${modsList[v].permamenturl}-${modpack}" style="padding: 5px; width: calc(100% - 10px); height: 80px; background-color: var(--secondary-color); border-radius: 0.8rem; display: flex; margin-top: 5px; margin-bottom: 5px; ">
                         <img  style="width: 75px; height: 75px; margin: 2.5px;" class="pfp" src="https://service.brmm.ovh/api/mod/imge/${modsList[v].permamenturl}">
                         <div style="height: 100%; width: calc(100% - 200px); margin-left: 10px;">
                             <h1 id="ModpackName_Page" style="margin: 0px; height: 30px; font-size: 26px;">${modsList[v].name}</h1>
                             <p id="ModpackDescription_Page" style="margin: 0px; height: 20px; font-size: 18px;">${modsList[v].description}</p>
                             <p id="ModpackTags_Page" style="margin: 0px; height: 20px; margin-top: 10px; font-size: 14px;">${modsList[v].tags[0]} | ${modsList[v].tags[1]} | ${modsList[v].tags[2]}</p>
                         </div>
-                            <div style="height: 100%; width: 130px; border-radius: 0.8rem; background-color: rgb(16, 16, 19); display: flex; flex-direction: row;">
+                            <div style="height: 100%; width: 130px; border-radius: 0.8rem; background-color: var(--third-color); display: flex; flex-direction: row;">
                                 <div onclick="RemoveModToModpack('${modsList[v].permamenturl}','${modpack}')" class="ModpackRemoveButton">
                                     <img style="width: 40px; height: 60px;" src="../BRMM Mod Card/assets/delete.svg">
                                 </div>
                                 <div onclick="EnableModToModpack('${modsList[v].permamenturl}','${modpack}')" id="${modsList[v].permamenturl}-${modpack}-button" style="width: 35px; padding 0px;display: block;" class="EnableModModpackButton">
-                                    <div id="${modsList[v].permamenturl}-${modpack}-button-dot" class="EnableModModpackButton" style="background-color: black; width: 25px; height: 20px; margin-left: 0px;" ></div>
+                                    <div id="${modsList[v].permamenturl}-${modpack}-button-dot" class="EnableModModpackButton" style="background-color: var(--secondary-color); width: 25px; height: 20px; margin-left: 0px;" ></div>
                                 </div>
                             </div>
                         </div>
@@ -724,13 +835,13 @@ async function OpenModpackPage(modpack) {
                 `
                 document.getElementById("Mods_Modpack").appendChild(div);
                 if(modpack_l.ModList[v].Enable == false){
-                    document.getElementById(`${modsList[v].permamenturl}-${modpack}-button`).style.backgroundColor = "black";
+                    document.getElementById(`${modsList[v].permamenturl}-${modpack}-button`).style.backgroundColor = "var(--secondary-color)";
                     document.getElementById(`${modsList[v].permamenturl}-${modpack}-button-dot`).style.backgroundColor = "#06c238";
                     document.getElementById(`${modsList[v].permamenturl}-${modpack}-button-dot`).style.marginTop = "30px";
                 }
                 else{
                     document.getElementById(`${modsList[v].permamenturl}-${modpack}-button`).style.backgroundColor = "#06c238";
-                    document.getElementById(`${modsList[v].permamenturl}-${modpack}-button-dot`).style.backgroundColor = "black";
+                    document.getElementById(`${modsList[v].permamenturl}-${modpack}-button-dot`).style.backgroundColor = "var(--secondary-color)";
                     document.getElementById(`${modsList[v].permamenturl}-${modpack}-button-dot`).style.marginTop = "0px";
                 }
             }
@@ -741,19 +852,19 @@ async function OpenModpackPage(modpack) {
                 const div = document.createElement('div');
                 if(modpack_l.ModList[v].Modid.startsWith("LOCAL&")){
                     div.innerHTML = `
-                    <div id="${modpack_l.ModList[v].Modid}-${modpack}" style="padding: 5px; width: calc(100% - 10px); height: 80px; background-color: black; border-radius: 0.8rem; display: flex; margin-top: 5px; margin-bottom: 5px; ">
+                    <div id="${modpack_l.ModList[v].Modid}-${modpack}" style="padding: 5px; width: calc(100% - 10px); height: 80px; background-color: var(--secondary-color); border-radius: 0.8rem; display: flex; margin-top: 5px; margin-bottom: 5px; ">
                         <img  style="width: 75px; height: 75px; margin: 2.5px;" class="pfp" src="../BRMM Mod Card/assets/brmm.png">
                         <div style="height: 100%; width: calc(100% - 200px); margin-left: 10px;">
                             <h1 id="ModpackName_Page" style="margin: 0px; height: 30px; font-size: 26px;">${modpack_l.ModList[v].Modid.replace("LOCAL&", "")}</h1>
                             <p id="ModpackDescription_Page" style="margin: 0px; height: 20px; font-size: 18px;"></p>
                             <p id="ModpackTags_Page" style="margin: 0px; height: 20px; margin-top: 10px; font-size: 14px;"></p>
                         </div>
-                            <div style="height: 100%; width: 130px; border-radius: 0.8rem; background-color: rgb(16, 16, 19); display: flex; flex-direction: row;">
+                            <div style="height: 100%; width: 130px; border-radius: 0.8rem; background-color: var(--third-color); display: flex; flex-direction: row;">
                                 <div onclick="RemoveModToModpack('${modpack_l.ModList[v].Modid}','${modpack}')" class="ModpackRemoveButton">
                                     <img style="width: 40px; height: 60px;" src="../BRMM Mod Card/assets/delete.svg">
                                 </div>
                                 <div onclick="EnableModToModpack('${modpack_l.ModList[v].Modid}','${modpack}')" id="${modpack_l.ModList[v].Modid}-${modpack}-button" style="width: 35px; padding 0px;display: block;" class="EnableModModpackButton">
-                                    <div id="${modpack_l.ModList[v].Modid}-${modpack}-button-dot" class="EnableModModpackButton" style="background-color: black; width: 25px; height: 20px; margin-left: 0px;" ></div>
+                                    <div id="${modpack_l.ModList[v].Modid}-${modpack}-button-dot" class="EnableModModpackButton" style="background-color: var(--secondary-color); width: 25px; height: 20px; margin-left: 0px;" ></div>
                                 </div>
                             </div>
                         </div>
@@ -762,13 +873,13 @@ async function OpenModpackPage(modpack) {
                     document.getElementById("Mods_Modpack").appendChild(div);
 
                     if(modpack_l.ModList[v].Enable == false){
-                        document.getElementById(`${modpack_l.ModList[v].Modid}-${modpack}-button`).style.backgroundColor = "black";
+                        document.getElementById(`${modpack_l.ModList[v].Modid}-${modpack}-button`).style.backgroundColor = "var(--secondary-color)";
                         document.getElementById(`${modpack_l.ModList[v].Modid}-${modpack}-button-dot`).style.backgroundColor = "#06c238";
                         document.getElementById(`${modpack_l.ModList[v].Modid}-${modpack}-button-dot`).style.marginTop = "30px";
                     }
                     else{
                         document.getElementById(`${modpack_l.ModList[v].Modid}-${modpack}-button`).style.backgroundColor = "#06c238";
-                        document.getElementById(`${modpack_l.ModList[v].Modid}-${modpack}-button-dot`).style.backgroundColor = "black";
+                        document.getElementById(`${modpack_l.ModList[v].Modid}-${modpack}-button-dot`).style.backgroundColor = "var(--secondary-color)";
                         document.getElementById(`${modpack_l.ModList[v].Modid}-${modpack}-button-dot`).style.marginTop = "0px";
                     }
                 }
@@ -789,13 +900,13 @@ async function EnableModToModpack(mod,modpack){
             if(mod.startsWith("LOCAL&")){
                 const mod_mod_l = ModpacksLocal_prase[i].ModList.find(modes => modes.Modid === mod)
                 if(mod_mod_l.Enable == true){
-                    document.getElementById(`${mod}-${modpack}-button`).style.backgroundColor = "black";
+                    document.getElementById(`${mod}-${modpack}-button`).style.backgroundColor = "var(--secondary-color)";
                     document.getElementById(`${mod}-${modpack}-button-dot`).style.backgroundColor = "#06c238";
                     document.getElementById(`${mod}-${modpack}-button-dot`).style.marginTop = "30px";
                 }
                 else{
                     document.getElementById(`${mod}-${modpack}-button`).style.backgroundColor = "#06c238";
-                    document.getElementById(`${mod}-${modpack}-button-dot`).style.backgroundColor = "black";
+                    document.getElementById(`${mod}-${modpack}-button-dot`).style.backgroundColor = "var(--secondary-color)";
                     document.getElementById(`${mod}-${modpack}-button-dot`).style.marginTop = "0px";
                 }
 
@@ -804,13 +915,13 @@ async function EnableModToModpack(mod,modpack){
             else{
                 const mod_mod_l = ModpacksLocal_prase[i].ModList.find(modes => modes.Modid === mod)
                 if(mod_mod_l.Enable == true){
-                    document.getElementById(`${mod}-${modpack}-button`).style.backgroundColor = "black";
+                    document.getElementById(`${mod}-${modpack}-button`).style.backgroundColor = "var(--secondary-color)";
                     document.getElementById(`${mod}-${modpack}-button-dot`).style.backgroundColor = "#06c238";
                     document.getElementById(`${mod}-${modpack}-button-dot`).style.marginTop = "30px";
                 }
                 else{
                     document.getElementById(`${mod}-${modpack}-button`).style.backgroundColor = "#06c238";
-                    document.getElementById(`${mod}-${modpack}-button-dot`).style.backgroundColor = "black";
+                    document.getElementById(`${mod}-${modpack}-button-dot`).style.backgroundColor = "var(--secondary-color)";
                     document.getElementById(`${mod}-${modpack}-button-dot`).style.marginTop = "0px";
                 }
                 window.chrome.webview.hostObjects.dotnet.EnableMod(ModpacksLocal_prase[i].Name,mod_mods.permamenturl);
@@ -918,10 +1029,10 @@ function InstallModToModpack(mod_id){
 
         const div = document.createElement('div');
         div.innerHTML = `
-            <div style="height: 65px; width: 100%; border-radius: 0.8rem; background-color: black; display: flex; align-items: center; margin-bottom: 5px;">
+            <div style="height: 65px; width: 100%; border-radius: 0.8rem; background-color: var(--secondary-color); display: flex; align-items: center; margin-bottom: 5px;">
                 <img class="pfp" style="height: 55px; width: 55px; margin: 5px;" src="${filteredModpacks[i].Imge}">
                 <h2 style="background-color: transparent; padding: 0px; width: 170px; overflow: hidden; ${isInstalled ? "color: #666666;" : ""}">${filteredModpacks[i].Name}</h2>
-                <button ${isInstalled ? "style='height: 55px; width: 70px; background-color: rgb(16, 16, 19); margin-right: 5px; border-radius: 0.8rem; display: flex; justify-content: center; align-items: center;'" : `onclick="AddModToModpack('${mod_id}','${filteredModpacks[i].Name}')" style="height: 55px; width: 70px; background-color: rgb(255, 150, 27); margin-right: 5px; border-radius: 0.8rem; display: flex; justify-content: center; align-items: center;"`}>
+                <button ${isInstalled ? "style='height: 55px; width: 70px; background-color: var(--third-color); margin-right: 5px; border-radius: 0.8rem; display: flex; justify-content: center; align-items: center;'" : `onclick="AddModToModpack('${mod_id}','${filteredModpacks[i].Name}')" style="height: 55px; width: 70px; background-color: rgb(255, 150, 27); margin-right: 5px; border-radius: 0.8rem; display: flex; justify-content: center; align-items: center;"`}>
                     <img src="../BRMM Mod Card/assets/download_icon.svg">
                 </button>
             </div>
@@ -994,6 +1105,35 @@ async function SetupBrmm(){
     const id = user_credits_prase.id;
     document.getElementById('User_PFP').src = user_prase.avater;
     window.chrome.webview.hostObjects.dotnet.SetupMainData(token,id);
+
+    let hexColor = localStorage.getItem("SecondaryColor");
+    hexColor = hexColor.replace('#', '');
+
+    let r = parseInt(hexColor.substring(0, 2), 16);
+    let g = parseInt(hexColor.substring(2, 4), 16);
+    let b = parseInt(hexColor.substring(4, 6), 16); 
+    console.log(r + "," + g + "," + b);
+
+    window.chrome.webview.hostObjects.dotnet.UpdateFrameStyle(r + "," + g + "," + b);
+    //Validate Styles
+    const root = document.documentElement;
+
+    if(localStorage.getItem("PrimaryColor"))
+        root.style.setProperty("--primary-color", localStorage.getItem("PrimaryColor"));
+
+    if(localStorage.getItem("SecondaryColor"))
+        root.style.setProperty("--secondary-color", localStorage.getItem("SecondaryColor"));
+
+    if(localStorage.getItem("ThirdColor"))
+        root.style.setProperty("--third-color", localStorage.getItem("ThirdColor"));
+
+    if(localStorage.getItem("TextPrimaryColor"))
+        root.style.setProperty("--text-main", localStorage.getItem("TextPrimaryColor"));
+
+    if(localStorage.getItem("TextSecondaryColor"))
+        root.style.setProperty("--text-color", localStorage.getItem("TextSecondaryColor"));
+
+
     for(var i = 0; i < ModpacksLocal_prase.length; i++){
         document.getElementById("Home_Modpacks").appendChild(createCard("",ModpacksLocal_prase[i].Name,ModpacksLocal_prase[i].Imge,"","","",ModpacksLocal_prase[i].Description,ModpacksLocal_prase[i].Version,ModpacksLocal_prase[i].Author,"","",1,""));
     }
@@ -1069,6 +1209,7 @@ function openlinkwebview(url) {
 
 function OpenModPage(mod_l){
     showSection("Modpage");
+    const users_prased = fixAndParseBrokenJson(AllUsers_g);
 
     const mods_prased = fixAndParseBrokenJson(mods_g);
     const mod = mods_prased.mods.find(mod =>mod.permamenturl === mod_l);
@@ -1079,10 +1220,8 @@ function OpenModPage(mod_l){
     const preview = document.getElementById('preview');
     preview.innerHTML = marked.parse(mod.descriptionmd);
     document.getElementById("modpage_members").innerHTML = "";
-    const users_prased = fixAndParseBrokenJson(AllUsers_g);
     document.getElementById("consideraddinglinks").onclick = function() { openlinkwebview("https://beta.brmm.ovh/mod?id=" + mod.permamenturl) };
     let change = false;
-    console.log(mod);
     if(mod.links[0] == ''){
         document.getElementById("DiscordLink").style.height = "0px";
         change = true;
@@ -1139,7 +1278,7 @@ function OpenModPage(mod_l){
 
         let user_l;// = users_prased.users.find(userr => userr.id === mod.members[i]);
 
-
+        console.log(users_prased);
         for(var h= 0; h < users_prased.users.length; h++){
             if(mod.members[i] == users_prased.users[h].id){
                 user_l = users_prased.users[h];
@@ -1152,9 +1291,9 @@ function OpenModPage(mod_l){
             const orgs = organizations_prase.rows_org; 
             const organization = orgs.find(org => org.organizationid === mod.organizationid);
             div.innerHTML = `
-                <div style="background-color: black; height: 55px; width: 100%; border-radius: 0.8rem; margin-top: 5px; background: linear-gradient(to Right, transparent, rgb(15, 9, 49), 0%, black, 70%, transparent), url(${orgs[0].imge_path}) transparent; background-position: center; background-size: cover; display: flex; justify-content: center; align-items: center; flex-direction: column; overflow: hidden;">
+                <div style="background-color: var(--secondary-color); height: 55px; width: 100%; border-radius: 0.8rem; margin-top: 5px; background: linear-gradient(to Right, transparent, rgb(15, 9, 49), 0%, var(--secondary-color), 70%, transparent), url(${organization.imge_path}) transparent; background-position: center; background-size: cover; display: flex; justify-content: center; align-items: center; flex-direction: column; overflow: hidden;">
                     <div style="width: 100%; height: 40px; overflow: hidden;">
-                        <h3 style="width: 100%; height: 40px; text-align: left; margin-left: 20px;">${orgs[0].name}</h3>
+                        <h3 style="width: 100%; height: 40px; text-align: left; margin-left: 20px;">${organization.name}</h3>
                     </div>
                     <p style="width: 100%; text-align: left; margin-left: 20px;">${type}</p>
                 </div>
@@ -1170,7 +1309,7 @@ function OpenModPage(mod_l){
             }
 
             div.innerHTML = `
-                <div style="background-color: black; height: 55px; width: 100%; border-radius: 0.8rem; margin-top: 5px; background: linear-gradient(to Right, transparent, rgb(15, 9, 49), 0%, black, 70%, transparent), url(${user_l.profilepic}) transparent; background-position: center; background-size: cover; display: flex; justify-content: center; align-items: center; flex-direction: column;">
+                <div style="background-color: var(--secondary-color); height: 55px; width: 100%; border-radius: 0.8rem; margin-top: 5px; background: linear-gradient(to Right, transparent, rgb(15, 9, 49), 0%, var(--secondary-color), 70%, transparent), url(${user_l.profilepic}) transparent; background-position: center; background-size: cover; display: flex; justify-content: center; align-items: center; flex-direction: column;">
                     <h3 style="width: 100%; text-align: left; margin-left: 20px;">${ user_l.username.length > 18 ? user_l.username.slice(0, 18) : user_l.username}</h3>
                     <p style="width: 100%; text-align: left; margin-left: 20px;">${type}</p>
                 </div>
@@ -1182,7 +1321,7 @@ function OpenModPage(mod_l){
 
 function createCard(mod,name,imge,background,follows,downloads,description,tags,author,id,orgid,modpack, modpackmod,modpackimge) {
     const div = document.createElement('div');
-    if(orgid && !modpackmod){
+    if(orgid){
         const organizations_prase = fixAndParseBrokenJson(organizations);
         const orgs = organizations_prase.rows_org; 
         const organization = orgs.find(org => org.organizationid === orgid);
@@ -1195,7 +1334,7 @@ function createCard(mod,name,imge,background,follows,downloads,description,tags,
                         <div class="text">
                             <p class="title">${name}</p>
                             <div class="author">
-                                <p>by <a href="#">${orgs[0].name}</a></p>
+                                <p>by <a style="cursor: pointer ;text-decoration: underline;" onclick="window.chrome.webview.hostObjects.dotnet.OpenLinkWebview('https://beta.brmm.ovh/panel?org=${organization.organizationid}')">${organization.name}</a></p>
                             </div>
                         </div>
                     </div>
@@ -1231,7 +1370,7 @@ function createCard(mod,name,imge,background,follows,downloads,description,tags,
                     <div class="text">
                         <p class="title">${name}</p>
                         <div class="author">
-                            <p>by <a href="#">${author}</a></p>
+                            <p>by <a  style="cursor: pointer ;text-decoration: underline;" onclick="window.chrome.webview.hostObjects.dotnet.OpenLinkWebview('https://beta.brmm.ovh/panel?id=${mod.creator}')">${author}</a></p>
                         </div>
                     </div>
                 </div>
@@ -1263,7 +1402,7 @@ function createCard(mod,name,imge,background,follows,downloads,description,tags,
                         <div class="text">
                             <p class="title">${name}</p>
                             <div class="author">
-                                <p>by <a href="#">${author}</a></p>
+                                <p>by <a  style="cursor: pointer ;text-decoration: underline;" onclick="window.chrome.webview.hostObjects.dotnet.OpenLinkWebview('https://beta.brmm.ovh/panel?id=${mod.creator}')">${author}</a></p>
                             </div>
                         </div>
                     </div>
@@ -1300,7 +1439,7 @@ function createCard(mod,name,imge,background,follows,downloads,description,tags,
                     <div class="text">
                         <p class="title">${name}</p>
                         <div class="author">
-                            <p>by <a href="#">${author}</a></p>
+                            <p>by <a  style="cursor: pointer ;text-decoration: underline;" onclick="window.chrome.webview.hostObjects.dotnet.OpenLinkWebview('https://beta.brmm.ovh/panel?id=${mod.creator}')">${author}</a></p>
                         </div>
                     </div>
                 </div>
@@ -1335,36 +1474,36 @@ function NextPageFirstTimeBRMM(id){
             <h2>Welcome to new BRMM!</h2>
             <div>
                 <p style="text-align: center;">Before you start, check what u want too share.</p>
-                <div style="padding: 5px; margin: 5px; width: calc(100% - 20px); height: 90px; background-color: black; border-radius: 0.8rem; display: flex; margin-top: 5px; margin-bottom: 5px; ">
+                <div style="padding: 5px; margin: 5px; width: calc(100% - 20px); height: 90px; background-color: var(--secondary-color); border-radius: 0.8rem; display: flex; margin-top: 5px; margin-bottom: 5px; ">
                         <div style="height: 100%; width: calc(100% - 20px); margin-left: 10px;">
                             <h1 style="margin: 0px; height: 30px; font-size: 26px;">Discord RPC</h1>
-                            <p style="width: 100%; height: 100%; color: #CCC; margin: 0px; padding: 0px;">Manages Discord Rich Presence. Disabling hides 'BRMM' from your Discord profile.</p>
+                            <p style="width: 100%; height: 100%; color: var(--text-color); margin: 0px; padding: 0px;">Manages Discord Rich Presence. Disabling hides 'BRMM' from your Discord profile.</p>
                         </div>
-                        <div style="height: 100%; margin-left: 10px; border-radius: 0.8rem; background-color: rgb(16, 16, 19); display: flex; flex-direction: row;">
+                        <div style="height: 100%; margin-left: 10px; border-radius: 0.8rem; background-color: var(--third-color); display: flex; flex-direction: row;">
                             <div style="width: 35px; height: 70px; display: block; background-color: rgb(6, 194, 56);" class="EnableModModpackButton" id="DCRPC-button=" onclick="SettingsStartBRMM(1)">
-                            <div class="EnableModModpackButton" style="background-color: black; width: 25px; height: 20px; margin-left: 0px; margin-top: 0px;" id="DCRPC-button-dot="></div>
+                            <div class="EnableModModpackButton" style="background-color: var(--secondary-color); width: 25px; height: 20px; margin-left: 0px; margin-top: 0px;" id="DCRPC-button-dot="></div>
                         </div>
                     </div>
                 </div>
-                <div style="padding: 5px; margin: 5px; width: calc(100% - 20px); height: 90px; background-color: black; border-radius: 0.8rem; display: flex; margin-top: 5px; margin-bottom: 5px; ">
+                <div style="padding: 5px; margin: 5px; width: calc(100% - 20px); height: 90px; background-color: var(--secondary-color); border-radius: 0.8rem; display: flex; margin-top: 5px; margin-bottom: 5px; ">
                         <div style="height: 100%; width: calc(100% - 20px); margin-left: 10px;">
                             <div style="display: flex; height: 36px;">
                                 <h1 style="margin: 0px; height: 30px; font-size: 26px;">Telemetry</h1>
                                     <img style="margin: 7px;" src="../BRMM Mod Card/assets/moreinfo.svg">
 
                             </div>
-                            <p style="width: 100%; height: 100%; color: #CCC; margin: 0px; padding: 0px;">BRMM collects anonymized data to improve and personalize. Disabling stops all data collection.</p>
+                            <p style="width: 100%; height: 100%; color: var(--text-color); margin: 0px; padding: 0px;">BRMM collects anonymized data to improve and personalize. Disabling stops all data collection.</p>
                         </div>
-                        <div style="height: 100%; margin-left: 10px; border-radius: 0.8rem; background-color: rgb(16, 16, 19); display: flex; flex-direction: row;">
+                        <div style="height: 100%; margin-left: 10px; border-radius: 0.8rem; background-color: var(--third-color); display: flex; flex-direction: row;">
                             <div style="width: 35px; height: 70px; display: block; background-color: rgb(6, 194, 56);" class="EnableModModpackButton" id="CDATA-button=" onclick="SettingsStartBRMM(2)">
-                            <div class="EnableModModpackButton" style="background-color: black; width: 25px; height: 20px; margin-left: 0px; margin-top: 0px;" id="CDATA-button-dot="></div>
+                            <div class="EnableModModpackButton" style="background-color: var(--secondary-color); width: 25px; height: 20px; margin-left: 0px; margin-top: 0px;" id="CDATA-button-dot="></div>
                         </div>
                     </div>
                 </div>
             </div>
             <div style="display: flex; justify-content: space-between;">
                 <p style="text-align: center; margin-bottom: 7px;">Version v0.3.1-alpha</p>
-                <button onclick="NextPageFirstTimeBRMM(1)" style="background-color: #06c238; color: white;">Next</button>
+                <button onclick="NextPageFirstTimeBRMM(1)" style="background-color: #06c238; color: var(--text-main);">Next</button>
             </div>
             `;
         break;
@@ -1378,17 +1517,17 @@ function NextPageFirstTimeBRMM(id){
                     <div id="greenBox" 
                         onclick="selectaccount('green')" 
                         style="margin: 10px; width: 100%; height: calc(100% - 20px); background-color: #06c238; border-radius: 0.8rem; cursor: pointer; transition: box-shadow 0.2s ease; background-image: url('../BRMM Mod Card/assets/11.png'); background-size: cover; background-position: center;">
-                        <p style="padding: 0px;color: white;font-size: large;text-align: center;">BRMM</p>
+                        <p style="padding: 0px;color: var(--text-main);font-size: large;text-align: center;">BRMM</p>
                     </div>
                     <div id="blueBox" 
                         onclick="selectaccount('blue')" 
                         style="margin: 10px; width: 100%; height: calc(100% - 20px); background-color: blue; border-radius: 0.8rem; cursor: pointer; transition: box-shadow 0.2s ease; background-image: url('../BRMM Mod Card/assets/10.png'); background-size: cover; background-position: center;">
-                        <p style="padding: 0px;color: white;font-size: large;text-align: center;">Guest</p>
+                        <p style="padding: 0px;color: var(--text-main);font-size: large;text-align: center;">Guest</p>
                     </div>
                 </div>
             <div style="display: flex; justify-content: space-between;">
                 <p style="text-align: center; margin-bottom: 7px;">Version v0.3.1-alpha</p>
-                <button onclick="ApplySettingstart()" style="background-color: #06c238; color: white;">confirm</button>
+                <button onclick="ApplySettingstart()" style="background-color: #06c238; color: var(--text-main);">confirm</button>
             </div>
             `;
         break;
@@ -1479,8 +1618,8 @@ function managemods(mod) {
     const bar = document.getElementById("Barupdatestatusmodpack");
     if (bar) {
         bar.style.width = `${average}%`;
-            document.getElementById("Modpackupdates").style.visibility = "visible";
-        document.getElementById("Textupdatemodpack").textContent = "Downloading mods " + average + "%"
+        document.getElementById("Modpackupdates").style.visibility = "visible";
+        document.getElementById("Textupdatemodpack").textContent = "Downloading mods " + Math.round(average) + "%"
     }
 }
 
@@ -1527,7 +1666,7 @@ function Console(input) {
 }
 
 function showSection(sectionId) {
-    const sections = ["Home", "Search_Mods", "Settings", "CreateModpack", "Console", "Modpage", "AddModModpack", "Modpackpage", "FirstTimeinbrmm", "Library_Modpacks", "Autoupdate"];
+    const sections = ["Home", "ChangeColors" ,"Search_Mods", "Settings", "CreateModpack", "Console", "Modpage", "AddModModpack", "Modpackpage", "FirstTimeinbrmm", "Library_Modpacks", "Autoupdate"];
     const mods_parsed = fixAndParseBrokenJson(mods_g);
 
     switch (sectionId) {
@@ -1563,6 +1702,15 @@ function showSection(sectionId) {
         }
         return;
     }
+
+    if (sectionId === "ChangeColors") {
+        const modpackSection = document.getElementById("ChangeColors");
+        if (modpackSection) {
+            modpackSection.style.display = "Flex";
+        }
+        return;
+    }
+    
     if (sectionId === "Autoupdate") {
         const modpackSection = document.getElementById("Autoupdate");
         if (modpackSection) {
@@ -1596,6 +1744,14 @@ function showSection(sectionId) {
 
 </script>
 <style>
+:root {
+  --primary-color: #101013;
+  --secondary-color: black;
+  --third-color: #1c1c20;
+  --text-main: white;
+  --text-color: #CCC;
+}
+
 body{
     margin: 0px;
     padding: 0%;
@@ -1603,7 +1759,7 @@ body{
     width: 100vw;
     font-family: "poppins" ,"Roboto", sans-serif;
     display: flex;
-    background-color: #101013;
+    background-color: var(--primary-color);
 }
 ::-webkit-scrollbar {
     width: 1px;
@@ -1613,12 +1769,14 @@ body{
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #101013; 
+    background: var(--primary-color); 
     border-radius: 10px;
 }
 ::-webkit-scrollbar-thumb:hover {
     background: #19191f; 
 }
+
+
 
 .SmoothTrans{
     width: 40px; 
@@ -1667,7 +1825,7 @@ body{
     margin-top: 10px;
 }
 .Modpack_Ico_holder img{
-    background-color: #1c1c20;
+    background-color: var(--third-color);
     border-radius: 0.8rem;
 }
 .Modpack_Ico_holder div{
@@ -1720,7 +1878,7 @@ body{
 .CreateModpack select{
     width:  calc(100% - 20px);
     margin-left: 10px;
-    background-color: #1c1c20;
+    background-color: var(--third-color);
     border: transparent;
     outline: transparent;
     padding: 10px;
@@ -1731,11 +1889,11 @@ body{
     padding: 10px;
     margin-left: 10px;
     width:  calc(100% - 40px);
-    background-color: #1c1c20;
+    background-color: var(--third-color);
     border: transparent;
     outline: transparent;
     border-radius: 0.8rem;
-    color: white;
+    color: var(--text-main);
 }
 
 .ExportModpackButton{
@@ -1743,7 +1901,7 @@ body{
     background-color: rgb(6, 194, 56);
     border: none;
     border-radius: 0.8rem;
-    color: #CCC;
+    color: var(--text-color);
     height: 100%;
     font-size: 18px;
     margin-top: 10px;
@@ -1763,7 +1921,7 @@ body{
     background-color: red;
     border: none;
     border-radius: 0.8rem;
-    color: #CCC;
+    color: var(--text-color);
     height: 100%;
     font-size: 18px;
     margin-top: 5px;
@@ -1793,7 +1951,7 @@ select {
     outline: 0;
     border: 0px solid #000000;
     border-radius: 0.8rem;
-    background: #222;
+    background: var(--third-color);
     color: #7b7b7b;
     appearance: none;
     -webkit-appearance: none;
@@ -1805,7 +1963,7 @@ select {
     select select:hover,
     select select:focus {
         color: #000000;
-        background: #cccccc;
+        background: var(--text-color);
     }
     select select:disabled {
         opacity: 0.5;
@@ -1825,15 +1983,15 @@ select {
         border-top-color: #000000;
     }
     select select:disabled ~ .select_arrow {
-        border-top-color: #cccccc;
+        border-top-color: var(--text-color)ccc;
     }
 .CreateModpack button{
     width: 100%;
-    background-color: #CCC;
+    background-color: var(--text-color);
     border: none;
-    background-color: #1c1c20;
+    background-color: var(--third-color);
     border-radius: 0.8rem;
-    color: #CCC;
+    color: var(--text-color);
     height: 30px;
     font-size: 18px;
     margin: 10px;
@@ -1842,7 +2000,7 @@ select {
     min-width: 300px;
     width: 20%;
     border-radius: 0.8rem;
-    background-color: #101013;
+    background-color: var(--primary-color);
 }
 .CreateModpack p{
     width: 100%;
@@ -1855,7 +2013,7 @@ select {
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: #0c0c0c;
+    background-color: var(--secondary-color);
     border-radius: 0.8rem;;
 }
 #Settings{
@@ -1868,19 +2026,24 @@ select {
     justify-content: space-between;
     align-items: center;
 }
+
+button{
+    cursor: pointer;
+}
+
 #Holder button{
     width: 150px;
-    background-color: #CCC;
+    background-color: var(--text-color);
     border: none;
-    background-color: #1c1c20;
+    background-color: var(--third-color);
     border-radius: 0.8rem;
-    color: #CCC;
+    color: var(--text-color);
     height: 30px;
     font-size: 18px;
 }
 
 #Holder p{
-    color:  #CCC;
+    color:  var(--text-color);
     font-family: "poppins";
 }
 #Home{
@@ -1892,7 +2055,7 @@ select {
 }
 #Home hr{
     margin-left: 20px;
-    border-color: #101013;
+    border-color: var(--primary-color);
 }
 #Home_PopularMods{
     bottom: 0px;
@@ -1900,7 +2063,7 @@ select {
     display: flex;
 }
 .Holder_UI{
-    background-color: #101013;
+    background-color: var(--primary-color);
     color: #FFF;
     border-radius: 0.8rem;
     padding: 15px;
@@ -1940,7 +2103,7 @@ select {
 }
 .Navigation_Search{
     margin-top: 10px;
-    background-color: #101013;
+    background-color: var(--primary-color);
     border-radius: 1rem;
     width: calc(100% - 20px);
     height: 65px;
@@ -1953,7 +2116,7 @@ select {
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    color: #CCC;
+    color: var(--text-color);
     margin-right: 15px;
     width: auto;
 }
@@ -1964,7 +2127,7 @@ select {
     margin: 0px;
 }
 .Navigation_Search input {
-    background-color: #222;
+    background-color: var(--third-color);
     color: #FFF;
     height: 40px;
     border-radius: 0.8rem;
@@ -1987,7 +2150,7 @@ select {
 .gear-icon {
     position: absolute;
     font-size: 24px;
-    color: #ccc;
+    color: var(--text-color);
     opacity: 0;
     transition: opacity 0.3s;
     pointer-events: none;
@@ -2004,7 +2167,7 @@ select {
 .Sidebar{
     width: 85px;
     height: 100vh;
-    background-color: #101013;
+    background-color: var(--primary-color);
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -2016,7 +2179,7 @@ select {
     width: 65px;
     height: 65px;
     margin-top: 10px;
-    background-color: #101013;
+    background-color: var(--primary-color);
     border-radius: 4px;
     display: flex;
     justify-content: center;
@@ -2026,13 +2189,13 @@ select {
 }
 .PageButton:hover{
     border-radius: 0.8rem;
-    background-color: #1c1c20;
+    background-color: var(--third-color);
 }
 .tooltiptext {
     visibility: hidden;
     width: 80px;
-    background-color: #1c1c20;
-    color: #CCC;
+    background-color: var(--third-color);
+    color: var(--text-color);
     text-align: center;
     border-radius: 5px;
     padding: 5px 0;
@@ -2056,7 +2219,7 @@ select {
 .Navbar{
     width: 100%;
     height: 50px;
-    background-color: #101013;
+    background-color: var(--primary-color);
     display: flex;
     align-items: center;
     justify-content: end;
@@ -2067,7 +2230,7 @@ select {
     width: 40px;
     height: 40px;
     margin-right: 5px;
-    background-color: #101013;
+    background-color: var(--primary-color);
     border-radius: 4px;
     display: flex;
     justify-content: center;
@@ -2077,18 +2240,18 @@ select {
 }
 .Navbar_button:hover{
     border-radius: 0.8rem;
-    background-color: #1c1c20;
+    background-color: var(--third-color);
 }
 .root{
     width: calc(100% - 85px);
     height: 100%;
-    background: #101013;
-    background: linear-gradient(90deg,rgba(16, 16, 19, 1) 0%, rgba(16, 16, 19, 1) 50%, rgba(0, 0, 0, 1) 100%);
+    background: var(--primary-color);
+    background: linear-gradient(90deg,var(--primary-color) 0%, var(--primary-color) 50%, var(--secondary-color) 100%);
 }
 .Main{
     width: 100%;
     height: calc(100% - 50px);
-    background-color: black;
+    background-color: var(--secondary-color);
     border-top-left-radius: 1rem;
     overflow: hidden;
 }
@@ -2097,7 +2260,7 @@ select {
 * {
         margin: 0;
         padding: 0;
-        color: #ececec;
+        color: var(--text-main);
 }
         
     body {
@@ -2106,14 +2269,14 @@ select {
         align-items: center;
         height: 100vh;
         font-family: "poppins" ,"Roboto", sans-serif;
-        background-color: black;
+        background-color: var(--secondary-color);
     }
 
     .card {
         margin: 8px;
         width: 480px;
         height: 360px;
-        background: #101013;
+        background: var(--primary-color);
         border-radius: 1rem;
         overflow: hidden;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -2141,7 +2304,7 @@ select {
         position: absolute;
         top: 94px;
         left: 11px;
-        border: #101013 5px solid;
+        border: var(--primary-color) 5px solid;
         cursor: pointer;
     }
 
@@ -2168,7 +2331,7 @@ select {
     }
 
     .author a:hover {
-        color: #cccccc;
+        color: var(--text-color);
     }
 
     .description {
@@ -2190,7 +2353,7 @@ select {
         display: inline-flex;
         align-items: center;
         gap: 5px;
-        background-color: #1f1f22;
+        background-color: var(--third-color);
         padding: 3px 8px;
         border-radius: 5px;
         font-family: "Roboto", sans-serif
@@ -2234,7 +2397,7 @@ select {
         height: 2.5rem;
         border-radius: 0.80rem;
         width: 2.5rem;
-        background-color: #1f1f22;
+        background-color: var(--third-color);
         border: 0;
         cursor: pointer;
         transition: 0.2s;
@@ -2275,7 +2438,7 @@ select {
     min-height: 40px;
 
     border-radius: 0.8rem;
-    background-color: #222;
+    background-color: var(--third-color);
     cursor: pointer;
     display: inline-block;
     position: relative;
@@ -2291,7 +2454,7 @@ select {
     top: 6px;    
     width: 10px;
     height: 20px;
-    border: solid #CCC;
+    border: solid var(--text-color);
     border-width: 0 4px 4px 0;
     transform: rotate(45deg);
 }
@@ -2305,7 +2468,7 @@ select {
   .image-input {
     width: 120px;
     height: 120px;
-    border: 2px dashed #ccc;
+    border: 2px dashed var(--text-color);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -2323,5 +2486,29 @@ select {
   input[type="file"] {
     display: none;
   }
+
+  input[type="color"] {
+  -webkit-appearance: none; /* usuwa domyślny wygląd w WebKit (Chrome, Safari) */
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  padding: 0;
+}
+
+/* pasek wyboru w Chrome */
+input[type="color"]::-webkit-color-swatch-wrapper {
+  padding: 0;
+}
+
+input[type="color"]::-webkit-color-swatch {
+  border: none;
+  border-radius: 8px;
+}
+
+/* dla Firefoxa */
+input[type="color"]::-moz-color-swatch {
+  border: none;
+  border-radius: 8px;
+}
 </style>
 
