@@ -1,0 +1,14 @@
+C:\Users\StevToPL\Desktop\new site btmm gitea 2\brmm\BRMMUpdater\bin\Release\net8.0\BRMMUpdater.exe
+C:\Users\StevToPL\Desktop\new site btmm gitea 2\brmm\BRMMUpdater\bin\Release\net8.0\BRMMUpdater.deps.json
+C:\Users\StevToPL\Desktop\new site btmm gitea 2\brmm\BRMMUpdater\bin\Release\net8.0\BRMMUpdater.runtimeconfig.json
+C:\Users\StevToPL\Desktop\new site btmm gitea 2\brmm\BRMMUpdater\bin\Release\net8.0\BRMMUpdater.dll
+C:\Users\StevToPL\Desktop\new site btmm gitea 2\brmm\BRMMUpdater\bin\Release\net8.0\BRMMUpdater.pdb
+C:\Users\StevToPL\Desktop\new site btmm gitea 2\brmm\BRMMUpdater\obj\Release\net8.0\BRMMUpdater.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\StevToPL\Desktop\new site btmm gitea 2\brmm\BRMMUpdater\obj\Release\net8.0\BRMMUpdater.AssemblyInfoInputs.cache
+C:\Users\StevToPL\Desktop\new site btmm gitea 2\brmm\BRMMUpdater\obj\Release\net8.0\BRMMUpdater.AssemblyInfo.cs
+C:\Users\StevToPL\Desktop\new site btmm gitea 2\brmm\BRMMUpdater\obj\Release\net8.0\BRMMUpdater.csproj.CoreCompileInputs.cache
+C:\Users\StevToPL\Desktop\new site btmm gitea 2\brmm\BRMMUpdater\obj\Release\net8.0\BRMMUpdater.dll
+C:\Users\StevToPL\Desktop\new site btmm gitea 2\brmm\BRMMUpdater\obj\Release\net8.0\refint\BRMMUpdater.dll
+C:\Users\StevToPL\Desktop\new site btmm gitea 2\brmm\BRMMUpdater\obj\Release\net8.0\BRMMUpdater.pdb
+C:\Users\StevToPL\Desktop\new site btmm gitea 2\brmm\BRMMUpdater\obj\Release\net8.0\BRMMUpdater.genruntimeconfig.cache
+C:\Users\StevToPL\Desktop\new site btmm gitea 2\brmm\BRMMUpdater\obj\Release\net8.0\ref\BRMMUpdater.dll
