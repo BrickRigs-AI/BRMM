@@ -29,6 +29,10 @@
                 <img src="../BRMM Mod Card/assets/Shelves.svg">
                 <span class="tooltiptext">Library</span>
             </div>  
+            <div id="DeveloperSettings" style="display: none;" class="PageButton" onclick="showSection('Console')">
+                <img src="../BRMM Mod Card/assets/terminal.svg">
+                <span class="tooltiptext">Debug Terminal</span>
+            </div>
         </div>
         <div class="PageButton" onclick="showSection('CreateModpack')">
             <img src="../BRMM Mod Card/assets/add.svg">
@@ -206,7 +210,7 @@
                     <div style="width: 100%;">
                         <div style="margin-top: 10px; width: calc(100% + 20px); height:  130px; background-color: var(--primary-color); border-radius: 0.8rem; display: flex; justify-content: space-between;">
                             <div style="display: flex;">
-                                <img id="modpackpage_imge" style="width: 110px; height: 110px; margin: 10px;" class="pfp" src="../BRMM Mod Card/assets/brmm.png">
+                                <img id="modpackpage_imge" class="pfp" src="../BRMM Mod Card/assets/brmm.png" onerror="this.onerror=null; this.src='../BRMM Mod Card/assets/default.png';" style="width: 110px; height: 110px; margin: 10px;" >
                                 <div style="margin: 5px;">
                                     <h1 id="modpackpage_name" style="font-size: 38px;">ModName</h1>
                                     <p id="modpackpage_descryption" style="font-size: 20px; color: rgb(204, 204, 204); margin: 0px; height: 30px; overflow: hidden;">he kjwkejh rkwjh rkjwher kjwhkejr hwjeh</p>
@@ -264,6 +268,12 @@
                     <div id="Holder">
                         <p>Removes old cache and forces to load everything agian</p>
                         <button onclick="window.chrome.webview.hostObjects.dotnet.Cache()">Purge cache</button>
+                    </div>
+                    <br>
+                    <h2>Developer Settings</h2>
+                    <div id="Holder">
+                        <p>Enables Developer Settings in BRMM to help debug errors.</p>
+                        <button id="buttonDeveloperSettings" onclick="EnableDeveloperSettings()">OFF</button>
                     </div>
                 </div>
 
@@ -623,6 +633,20 @@ function filterAndSortModpacks(mods, searchText, selectedVersion) {
 
         return matchesText && matchesVersion;
     });
+}
+
+function EnableDeveloperSettings() {
+
+    if( document.getElementById("DeveloperSettings").style.display === "none") {
+        document.getElementById("DeveloperSettings").style.display = "flex";
+        document.getElementById("buttonDeveloperSettings").textContent = "ON";
+        localStorage.setItem("DeveloperSettings", "true");
+    }
+    else{
+        document.getElementById("DeveloperSettings").style.display = "none";
+        document.getElementById("buttonDeveloperSettings").textContent = "OFF";
+        localStorage.setItem("DeveloperSettings", "false");
+    }
 }
 
 
@@ -1106,8 +1130,19 @@ async function SetupBrmm(){
     document.getElementById('User_PFP').src = user_prase.avater;
     window.chrome.webview.hostObjects.dotnet.SetupMainData(token,id);
 
+<<<<<<< Updated upstream
     let hexColor = localStorage.getItem("SecondaryColor");
     hexColor = hexColor.replace('#', '');
+=======
+    if(localStorage.getItem("DeveloperSettings") == "true"){
+        document.getElementById("DeveloperSettings").style.display = "flex";
+        document.getElementById("buttonDeveloperSettings").textContent = "ON";
+    }
+    else{
+        document.getElementById("DeveloperSettings").style.display = "none";
+        document.getElementById("buttonDeveloperSettings").textContent = "OFF";
+    }
+>>>>>>> Stashed changes
 
     let r = parseInt(hexColor.substring(0, 2), 16);
     let g = parseInt(hexColor.substring(2, 4), 16);
@@ -2488,14 +2523,13 @@ button{
   }
 
   input[type="color"] {
-  -webkit-appearance: none; /* usuwa domyślny wygląd w WebKit (Chrome, Safari) */
+  -webkit-appearance: none;
   border: none;
   cursor: pointer;
   overflow: hidden;
   padding: 0;
 }
 
-/* pasek wyboru w Chrome */
 input[type="color"]::-webkit-color-swatch-wrapper {
   padding: 0;
 }
@@ -2505,7 +2539,6 @@ input[type="color"]::-webkit-color-swatch {
   border-radius: 8px;
 }
 
-/* dla Firefoxa */
 input[type="color"]::-moz-color-swatch {
   border: none;
   border-radius: 8px;

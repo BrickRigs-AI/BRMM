@@ -1,44 +1,44 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\StevToPL\\Desktop\\new site btmm gitea 2\\brmm\\",
+  "WorkspaceRootPath": "C:\\Users\\StevToPL\\Documents\\GitHub\\BRMM\\src\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E7A93BD2-C2EB-467C-83CC-C2A1864D5F92}|BRMM\\BRMM.csproj|C:\\Users\\StevToPL\\Desktop\\new site btmm gitea 2\\brmm\\brmm\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E7A93BD2-C2EB-467C-83CC-C2A1864D5F92}|BRMM\\BRMM.csproj|c:\\users\\stevtopl\\documents\\github\\brmm\\src\\brmm\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E7A93BD2-C2EB-467C-83CC-C2A1864D5F92}|BRMM\\BRMM.csproj|solutionrelative:brmm\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7A93BD2-C2EB-467C-83CC-C2A1864D5F92}|BRMM\\BRMM.csproj|C:\\Users\\StevToPL\\Desktop\\new site btmm gitea 2\\brmm\\brmm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E7A93BD2-C2EB-467C-83CC-C2A1864D5F92}|BRMM\\BRMM.csproj|C:\\Users\\StevToPL\\Documents\\GitHub\\BRMM\\src\\brmm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E7A93BD2-C2EB-467C-83CC-C2A1864D5F92}|BRMM\\BRMM.csproj|solutionrelative:brmm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7A93BD2-C2EB-467C-83CC-C2A1864D5F92}|BRMM\\BRMM.csproj|c:\\users\\stevtopl\\desktop\\new site btmm gitea 2\\brmm\\brmm\\web_bridge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E7A93BD2-C2EB-467C-83CC-C2A1864D5F92}|BRMM\\BRMM.csproj|C:\\Users\\StevToPL\\Documents\\GitHub\\BRMM\\src\\brmm\\web_bridge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E7A93BD2-C2EB-467C-83CC-C2A1864D5F92}|BRMM\\BRMM.csproj|solutionrelative:brmm\\web_bridge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7A93BD2-C2EB-467C-83CC-C2A1864D5F92}|BRMM\\BRMM.csproj|C:\\Users\\StevToPL\\Desktop\\new site btmm gitea 2\\brmm\\brmm\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{E7A93BD2-C2EB-467C-83CC-C2A1864D5F92}|BRMM\\BRMM.csproj|C:\\Users\\StevToPL\\Documents\\GitHub\\BRMM\\src\\brmm\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{E7A93BD2-C2EB-467C-83CC-C2A1864D5F92}|BRMM\\BRMM.csproj|solutionrelative:brmm\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7A93BD2-C2EB-467C-83CC-C2A1864D5F92}|BRMM\\BRMM.csproj|C:\\Users\\StevToPL\\Desktop\\new site btmm gitea 2\\brmm\\brmm\\main.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "AbsoluteMoniker": "D:0:0:{E7A93BD2-C2EB-467C-83CC-C2A1864D5F92}|BRMM\\BRMM.csproj|C:\\Users\\StevToPL\\Documents\\GitHub\\BRMM\\src\\brmm\\main.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
       "RelativeMoniker": "D:0:0:{E7A93BD2-C2EB-467C-83CC-C2A1864D5F92}|BRMM\\BRMM.csproj|solutionrelative:brmm\\main.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E7A93BD2-C2EB-467C-83CC-C2A1864D5F92}|BRMM\\BRMM.csproj|C:\\Users\\StevToPL\\Desktop\\new site btmm gitea 2\\brmm\\brmm\\main.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E7A93BD2-C2EB-467C-83CC-C2A1864D5F92}|BRMM\\BRMM.csproj|C:\\Users\\StevToPL\\Documents\\GitHub\\BRMM\\src\\brmm\\main.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E7A93BD2-C2EB-467C-83CC-C2A1864D5F92}|BRMM\\BRMM.csproj|solutionrelative:brmm\\main.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{933BD76F-A0F7-4DFB-B004-DA57435B03C7}|BRMMUpdater\\BRMMUpdater.csproj|c:\\users\\stevtopl\\desktop\\new site btmm gitea 2\\brmm\\brmmupdater\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{933BD76F-A0F7-4DFB-B004-DA57435B03C7}|BRMMUpdater\\BRMMUpdater.csproj|c:\\users\\stevtopl\\documents\\github\\brmm\\src\\brmmupdater\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{933BD76F-A0F7-4DFB-B004-DA57435B03C7}|BRMMUpdater\\BRMMUpdater.csproj|solutionrelative:brmmupdater\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|BRMM||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{933BD76F-A0F7-4DFB-B004-DA57435B03C7}|BRMMUpdater\\BRMMUpdater.csproj|c:\\users\\stevtopl\\desktop\\new site btmm gitea 2\\brmm\\brmmupdater\\brmmupdater.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "AbsoluteMoniker": "D:0:0:{933BD76F-A0F7-4DFB-B004-DA57435B03C7}|BRMMUpdater\\BRMMUpdater.csproj|c:\\users\\stevtopl\\documents\\github\\brmm\\src\\brmmupdater\\brmmupdater.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{933BD76F-A0F7-4DFB-B004-DA57435B03C7}|BRMMUpdater\\BRMMUpdater.csproj|solutionrelative:brmmupdater\\brmmupdater.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{933BD76F-A0F7-4DFB-B004-DA57435B03C7}|BRMMUpdater\\BRMMUpdater.csproj|c:\\users\\stevtopl\\desktop\\new site btmm gitea 2\\brmm\\brmmupdater\\brmmupdater.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{933BD76F-A0F7-4DFB-B004-DA57435B03C7}|BRMMUpdater\\BRMMUpdater.csproj|c:\\users\\stevtopl\\documents\\github\\brmm\\src\\brmmupdater\\brmmupdater.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{933BD76F-A0F7-4DFB-B004-DA57435B03C7}|BRMMUpdater\\BRMMUpdater.csproj|solutionrelative:brmmupdater\\brmmupdater.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
@@ -55,9 +55,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Main.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\StevToPL\\Desktop\\new site btmm gitea 2\\brmm\\BRMM\\Main.cs",
+              "DocumentMoniker": "C:\\Users\\StevToPL\\Documents\\GitHub\\BRMM\\src\\BRMM\\Main.cs",
               "RelativeDocumentMoniker": "BRMM\\Main.cs",
-              "ToolTip": "C:\\Users\\StevToPL\\Desktop\\new site btmm gitea 2\\brmm\\BRMM\\Main.cs [Design]",
+              "ToolTip": "C:\\Users\\StevToPL\\Documents\\GitHub\\BRMM\\src\\BRMM\\Main.cs [Design]",
               "RelativeToolTip": "BRMM\\Main.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-30T22:03:15.737Z",
@@ -72,9 +72,9 @@
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "BRMMUpdater",
-              "DocumentMoniker": "C:\\Users\\StevToPL\\Desktop\\new site btmm gitea 2\\brmm\\BRMMUpdater\\BRMMUpdater.csproj",
+              "DocumentMoniker": "C:\\Users\\StevToPL\\Documents\\GitHub\\BRMM\\src\\BRMMUpdater\\BRMMUpdater.csproj",
               "RelativeDocumentMoniker": "BRMMUpdater\\BRMMUpdater.csproj",
-              "ToolTip": "C:\\Users\\StevToPL\\Desktop\\new site btmm gitea 2\\brmm\\BRMMUpdater\\BRMMUpdater.csproj",
+              "ToolTip": "C:\\Users\\StevToPL\\Documents\\GitHub\\BRMM\\src\\BRMMUpdater\\BRMMUpdater.csproj",
               "RelativeToolTip": "BRMMUpdater\\BRMMUpdater.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-09-13T10:31:30.599Z"
@@ -83,9 +83,9 @@
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "BRMMUpdater.csproj",
-              "DocumentMoniker": "C:\\Users\\StevToPL\\Desktop\\new site btmm gitea 2\\brmm\\BRMMUpdater\\BRMMUpdater.csproj",
+              "DocumentMoniker": "C:\\Users\\StevToPL\\Documents\\GitHub\\BRMM\\src\\BRMMUpdater\\BRMMUpdater.csproj",
               "RelativeDocumentMoniker": "BRMMUpdater\\BRMMUpdater.csproj",
-              "ToolTip": "C:\\Users\\StevToPL\\Desktop\\new site btmm gitea 2\\brmm\\BRMMUpdater\\BRMMUpdater.csproj",
+              "ToolTip": "C:\\Users\\StevToPL\\Documents\\GitHub\\BRMM\\src\\BRMMUpdater\\BRMMUpdater.csproj",
               "RelativeToolTip": "BRMMUpdater\\BRMMUpdater.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -95,9 +95,9 @@
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\StevToPL\\Desktop\\new site btmm gitea 2\\brmm\\BRMMUpdater\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\StevToPL\\Documents\\GitHub\\BRMM\\src\\BRMMUpdater\\Program.cs",
               "RelativeDocumentMoniker": "BRMMUpdater\\Program.cs",
-              "ToolTip": "C:\\Users\\StevToPL\\Desktop\\new site btmm gitea 2\\brmm\\BRMMUpdater\\Program.cs",
+              "ToolTip": "C:\\Users\\StevToPL\\Documents\\GitHub\\BRMM\\src\\BRMMUpdater\\Program.cs",
               "RelativeToolTip": "BRMMUpdater\\Program.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAFQAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -107,34 +107,32 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Web_Bridge.cs",
-              "DocumentMoniker": "C:\\Users\\StevToPL\\Desktop\\new site btmm gitea 2\\brmm\\BRMM\\Web_Bridge.cs",
+              "DocumentMoniker": "C:\\Users\\StevToPL\\Documents\\GitHub\\BRMM\\src\\BRMM\\Web_Bridge.cs",
               "RelativeDocumentMoniker": "BRMM\\Web_Bridge.cs",
-              "ToolTip": "C:\\Users\\StevToPL\\Desktop\\new site btmm gitea 2\\brmm\\BRMM\\Web_Bridge.cs",
+              "ToolTip": "C:\\Users\\StevToPL\\Documents\\GitHub\\BRMM\\src\\BRMM\\Web_Bridge.cs",
               "RelativeToolTip": "BRMM\\Web_Bridge.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAcwHMAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-19T11:26:36.298Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-19T11:26:36.298Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Main.resx",
-              "DocumentMoniker": "C:\\Users\\StevToPL\\Desktop\\new site btmm gitea 2\\brmm\\BRMM\\Main.resx",
+              "DocumentMoniker": "C:\\Users\\StevToPL\\Documents\\GitHub\\BRMM\\src\\BRMM\\Main.resx",
               "RelativeDocumentMoniker": "BRMM\\Main.resx",
-              "ToolTip": "C:\\Users\\StevToPL\\Desktop\\new site btmm gitea 2\\brmm\\BRMM\\Main.resx",
+              "ToolTip": "C:\\Users\\StevToPL\\Documents\\GitHub\\BRMM\\src\\BRMM\\Main.resx",
               "RelativeToolTip": "BRMM\\Main.resx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2025-09-13T10:40:49.274Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-13T10:40:49.274Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "BRMM",
-              "DocumentMoniker": "C:\\Users\\StevToPL\\Desktop\\new site btmm gitea 2\\brmm\\BRMM\\BRMM.csproj",
+              "DocumentMoniker": "C:\\Users\\StevToPL\\Documents\\GitHub\\BRMM\\src\\BRMM\\BRMM.csproj",
               "RelativeDocumentMoniker": "BRMM\\BRMM.csproj",
-              "ToolTip": "C:\\Users\\StevToPL\\Desktop\\new site btmm gitea 2\\brmm\\BRMM\\BRMM.csproj",
+              "ToolTip": "C:\\Users\\StevToPL\\Documents\\GitHub\\BRMM\\src\\BRMM\\BRMM.csproj",
               "RelativeToolTip": "BRMM\\BRMM.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-09-13T10:24:29.687Z"
@@ -143,11 +141,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Main.cs",
-              "DocumentMoniker": "C:\\Users\\StevToPL\\Desktop\\new site btmm gitea 2\\brmm\\BRMM\\Main.cs",
+              "DocumentMoniker": "C:\\Users\\StevToPL\\Documents\\GitHub\\BRMM\\src\\BRMM\\Main.cs",
               "RelativeDocumentMoniker": "BRMM\\Main.cs",
-              "ToolTip": "C:\\Users\\StevToPL\\Desktop\\new site btmm gitea 2\\brmm\\BRMM\\Main.cs",
+              "ToolTip": "C:\\Users\\StevToPL\\Documents\\GitHub\\BRMM\\src\\BRMM\\Main.cs",
               "RelativeToolTip": "BRMM\\Main.cs",
-              "ViewState": "AgIAAAYBAAAAAAAAAAAtwBgBAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAPsAAAAAAAAAAAApwAsBAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-01T13:29:30.536Z",
               "EditorCaption": ""
@@ -156,27 +154,25 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "Main.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\StevToPL\\Desktop\\new site btmm gitea 2\\brmm\\BRMM\\Main.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\StevToPL\\Documents\\GitHub\\BRMM\\src\\BRMM\\Main.Designer.cs",
               "RelativeDocumentMoniker": "BRMM\\Main.Designer.cs",
-              "ToolTip": "C:\\Users\\StevToPL\\Desktop\\new site btmm gitea 2\\brmm\\BRMM\\Main.Designer.cs",
+              "ToolTip": "C:\\Users\\StevToPL\\Documents\\GitHub\\BRMM\\src\\BRMM\\Main.Designer.cs",
               "RelativeToolTip": "BRMM\\Main.Designer.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAvwDEAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-19T14:18:26.804Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-19T14:18:26.804Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\StevToPL\\Desktop\\new site btmm gitea 2\\brmm\\BRMM\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\StevToPL\\Documents\\GitHub\\BRMM\\src\\BRMM\\Program.cs",
               "RelativeDocumentMoniker": "BRMM\\Program.cs",
-              "ToolTip": "C:\\Users\\StevToPL\\Desktop\\new site btmm gitea 2\\brmm\\BRMM\\Program.cs",
+              "ToolTip": "C:\\Users\\StevToPL\\Documents\\GitHub\\BRMM\\src\\BRMM\\Program.cs",
               "RelativeToolTip": "BRMM\\Program.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAAYwB8AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-30T22:03:06.181Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-30T22:03:06.181Z"
             }
           ]
         }

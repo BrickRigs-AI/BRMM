@@ -280,7 +280,11 @@ namespace BRMM
                 {
                     try
                     {
+<<<<<<< Updated upstream
                         using (HttpRequestMessage request = new HttpRequestMessage(HttpMethod.Head, "https://github.com/BrickRigs-AI/BRMM/releases/download/v0.4.3-alpha-merge/Updater.zip"))
+=======
+                        using (HttpRequestMessage request = new HttpRequestMessage(HttpMethod.Head, "https://github.com/BrickRigs-AI/BRMM/releases/download/v0.4.3-alpha/Updater.zip"))
+>>>>>>> Stashed changes
                         using (HttpResponseMessage response = await client.SendAsync(request))
                         {
                             if (response.IsSuccessStatusCode)
