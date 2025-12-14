@@ -280,11 +280,7 @@ namespace BRMM
                 {
                     try
                     {
-<<<<<<< Updated upstream
-                        using (HttpRequestMessage request = new HttpRequestMessage(HttpMethod.Head, "https://github.com/BrickRigs-AI/BRMM/releases/download/v0.4.3-alpha-merge/Updater.zip"))
-=======
-                        using (HttpRequestMessage request = new HttpRequestMessage(HttpMethod.Head, "https://github.com/BrickRigs-AI/BRMM/releases/download/v0.4.3-alpha/Updater.zip"))
->>>>>>> Stashed changes
+                        using (HttpRequestMessage request = new HttpRequestMessage(HttpMethod.Head, "https://github.com/BrickRigs-AI/BRMM/releases/download/v0.4.4-alpha-merge/Updater.zip"))
                         using (HttpResponseMessage response = await client.SendAsync(request))
                         {
                             if (response.IsSuccessStatusCode)
@@ -344,11 +340,6 @@ namespace BRMM
 
 
 
-
-
-
-
-
                 using (HttpClient client = new HttpClient())
                 {
                     var data = new
@@ -365,6 +356,28 @@ namespace BRMM
                     string responseString = await response.Content.ReadAsStringAsync();
                     web_Bridge.ConsoleLog(responseString);
                     web_Bridge.Customfunction("SetAllUsers", responseString);
+                }
+
+
+
+
+
+                using (HttpClient client = new HttpClient())
+                {
+                    var data = new
+                    {
+                        token = token_gl,
+                        id = id_gl
+                    };
+
+                    string json = System.Text.Json.JsonSerializer.Serialize(data);
+                    var content = new StringContent(json, Encoding.UTF8, "application/json");
+
+                    HttpResponseMessage response = await client.PostAsync("https://service.brmm.ovh/api/brmm/tags", content);
+
+                    string responseString = await response.Content.ReadAsStringAsync();
+                    web_Bridge.ConsoleLog(responseString);
+                    web_Bridge.Customfunction("SetTagsVersions", responseString);
                 }
 
 

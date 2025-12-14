@@ -75,10 +75,12 @@
 
                     
                     <div class="Navigation_Search">
-                        <input id="searchInput_Library_Modpacks" style="width: calc(100% - 520px);" placeholder="Search">
+                        <input id="searchInput_Library_Modpacks" style="width: calc(100% - 520px); margin-right: 10px;" placeholder="Search">
                         <div class="Navigation_Search_Right">
                             <p style="margin-right: 20px;">Version: </p>
                             <select id="versionSelect_Library_Modpacks"> 
+                                <option value="ALL">ALL</option>
+                                <option value="1.9">1.9</option>
                                 <option value="1.8">1.8</option>
                                 <option value="1.7">1.7</option>
                                 <option value="1.6">1.6</option>
@@ -111,8 +113,21 @@
                             </select>
                         </div>
                         <div class="Navigation_Search_Right">
+                            <p style="margin-right: 20px;">Tags: </p>
+                            <select id="TagsSelect_Search_Mods"> 
+                                <option value="ALL">ALL</option>
+                                <option value="1.9">1.9</option>
+                                <option value="1.8">1.8</option>
+                                <option value="1.7">1.7</option>
+                                <option value="1.6">1.6</option>
+                                <option value="1.5">1.5</option>
+                                <option value="Legacy">Legacy</option>
+                            </select>
                             <p style="margin-right: 20px;">Version: </p>
                             <select id="versionSelect_Search_Mods"> 
+                                <option value="ALL">ALL</option>
+                                <option value="Latest Version">Latest Version</option>
+                                <option value="1.9">1.9</option>
                                 <option value="1.8">1.8</option>
                                 <option value="1.7">1.7</option>
                                 <option value="1.6">1.6</option>
@@ -286,12 +301,6 @@
                         <p>Change the global launcher color theme.</p>
                         <button onclick="showSection('ChangeColors')">Edit</button>
                     </div>
-                    <br>
-                    <h2>Custom CSS</h2>
-                    <div id="Holder">
-                        <p>Here you can edit css of brmm to your liking.</p>
-                        <button>SOON</button>
-                    </div>
                 </div>
 
                 <div class="Holder_UI">
@@ -316,7 +325,7 @@
                     <br>
                     <h2>App Version</h2>
                     <div id="Holder">
-                        <p>v0.3.1-alpha ●︎ by Brick Rigs Modded team</p>
+                        <p>v0.4.4-alpha ●︎ by Brick Rigs Modded team</p>
                     </div>
                     <br>
                     <h2>Ui Version</h2>
@@ -430,11 +439,14 @@
             <input id="ModpackDescription" type="text" placeholder="ModPack Description">
             <p>Game Version</p>
             <select id="Version"> 
-                <option value="1.8">1.8</option>
-                <option value="1.7">1.7</option>
-                <option value="1.6">1.6</option>
-                <option value="1.5">1.5</option>
-                <option value="Legacy">Legacy</option>
+                                <option value="ALL">ALL</option>
+                                <option value="Latest Version">Latest Version</option>
+                                <option value="1.9">1.9</option>
+                                <option value="1.8">1.8</option>
+                                <option value="1.7">1.7</option>
+                                <option value="1.6">1.6</option>
+                                <option value="1.5">1.5</option>
+                                <option value="Legacy">Legacy</option>
             </select>
             <div style="display: flex; justify-content: space-between;">
                 <button onclick="document.getElementById('CreateModpack').style.display = 'none'">Cancel</button>
@@ -499,6 +511,7 @@ function UpdateStyle(){
 document.getElementById("searchInput_Search_Mods").onchange = function() { UpdateSearchPage() };
 document.getElementById("sortSelect_Search_Mods").onchange = function() { UpdateSearchPage() };
 document.getElementById("versionSelect_Search_Mods").onchange = function() { UpdateSearchPage() };
+document.getElementById("TagsSelect_Search_Mods").onchange = function() { UpdateSearchPage() };
 document.getElementById("Checkbox_Search_Mods").onchange = function() { UpdateSearchPage() };
 //showSection('Library_Modpacks');
 
@@ -506,7 +519,7 @@ document.getElementById("versionSelect_Library_Modpacks").onchange = function() 
 document.getElementById("searchInput_Library_Modpacks").onchange = function() { UpdateSearchModpackPage() };
 
 function UpdateSearchModpackPage() {
-    const selectedVersion = document.getElementById("versionSelect_Search_Mods").value;
+    const selectedVersion = document.getElementById("versionSelect_Library_Modpacks").value;
     const textinput = document.getElementById("searchInput_Library_Modpacks").value;
     const mods_sdfseparsed = fixAndParseBrokenJson(ModPacksLocal_g);
     
@@ -593,10 +606,10 @@ function UpdateSearchPage() {
     const searchText = document.getElementById("searchInput_Search_Mods").value;
     const sortBy = document.getElementById("sortSelect_Search_Mods").value;
     const selectedVersion = document.getElementById("versionSelect_Search_Mods").value;
+    const tagselected = document.getElementById("TagsSelect_Search_Mods").value;
     const modpackOnly = document.getElementById("Checkbox_Search_Mods").checked;
     const mods_sdfseparsed = fixAndParseBrokenJson(mods_g);
-    const filteredMods = filterAndSortMods(mods_sdfseparsed.mods, searchText, sortBy, selectedVersion, modpackOnly);
-
+    const filteredMods = filterAndSortMods(mods_sdfseparsed.mods, searchText, sortBy, selectedVersion,tagselected, modpackOnly);
     const cardsHolder = document.getElementById("CardsHolder");
     cardsHolder.innerHTML = "";
 
@@ -618,7 +631,13 @@ function UpdateSearchPage() {
 
 function filterAndSortModpacks(mods, searchText, selectedVersion) {
     const lowerSearch = searchText ? searchText.toLowerCase() : "";
-    const normalizedVersion = selectedVersion ? selectedVersion.toString().toLowerCase().trim() : "";
+    const normalizedVersion = selectedVersion
+        ? selectedVersion.toString().toLowerCase().trim()
+        : "";
+
+    if(selectedVersion == "ALL"){
+        return mods;
+    }
 
     return (mods || []).filter(mod => {
         const matchesText =
@@ -626,14 +645,19 @@ function filterAndSortModpacks(mods, searchText, selectedVersion) {
             (mod.Name && mod.Name.toLowerCase().includes(lowerSearch)) ||
             (mod.Description && mod.Description.toLowerCase().includes(lowerSearch));
 
-        const modVersion = mod.Version ? mod.Version.toString().toLowerCase().trim() : "";
+        const modVersion = mod.Version
+            ? mod.Version.toString().toLowerCase().trim()
+            : "";
 
         const matchesVersion =
-            !normalizedVersion || modVersion === normalizedVersion;
+            !normalizedVersion ||
+            normalizedVersion === "ALL" ||
+            modVersion === normalizedVersion;
 
         return matchesText && matchesVersion;
     });
 }
+
 
 function EnableDeveloperSettings() {
 
@@ -650,18 +674,35 @@ function EnableDeveloperSettings() {
 }
 
 
-function filterAndSortMods(mods, searchText, sortBy, selectedVersion, modpackOnly) {
+function filterAndSortMods(mods, searchText, sortBy, selectedVersion, selectedTag, modpackOnly) {
     const lowerSearch = searchText.toLowerCase();
 
     let filtered = mods.filter(mod => {
-        const matchesText = mod.name.toLowerCase().includes(lowerSearch) || 
-                            mod.description.toLowerCase().includes(lowerSearch);
-        const matchesVersion = !selectedVersion || mod.tags.includes(selectedVersion);
+        // Tekst
+        const matchesText = !searchText || 
+            mod.name.toLowerCase().includes(lowerSearch) || 
+            mod.description.toLowerCase().includes(lowerSearch);
+
+        // Upewniamy się, że mod.tags jest tablicą
+        const tags = Array.isArray(mod.tags) ? mod.tags : mod.tags.split(",").map(t => t.trim());
+
+        // Filtr wersji
+        const matchesVersion = !selectedVersion || selectedVersion === "ALL" || tags.includes(selectedVersion);
+
+        // Filtr tagów
+        console.log(tags)
+        console.log(selectedTag)
+
+        const matchesTag = !selectedTag || selectedTag === "ALL" || tags.includes(selectedTag);
+
+        // Filtr modpack
         const matchesModpack = !modpackOnly || mod.modpack === "true";
 
-        return matchesText && matchesVersion && matchesModpack;
+        // Mod musi spełniać WSZYSTKIE kryteria
+        return matchesText && matchesVersion && matchesTag && matchesModpack;
     });
 
+    // Sortowanie
     if (sortBy === "Downloads") {
         filtered.sort((a, b) => b.downloads - a.downloads);
     } else if (sortBy === "Follows") {
@@ -670,6 +711,8 @@ function filterAndSortMods(mods, searchText, sortBy, selectedVersion, modpackOnl
 
     return filtered;
 }
+
+
 
 
 function DeleteModpack(modpack) {
@@ -1130,10 +1173,6 @@ async function SetupBrmm(){
     document.getElementById('User_PFP').src = user_prase.avater;
     window.chrome.webview.hostObjects.dotnet.SetupMainData(token,id);
 
-<<<<<<< Updated upstream
-    let hexColor = localStorage.getItem("SecondaryColor");
-    hexColor = hexColor.replace('#', '');
-=======
     if(localStorage.getItem("DeveloperSettings") == "true"){
         document.getElementById("DeveloperSettings").style.display = "flex";
         document.getElementById("buttonDeveloperSettings").textContent = "ON";
@@ -1142,14 +1181,19 @@ async function SetupBrmm(){
         document.getElementById("DeveloperSettings").style.display = "none";
         document.getElementById("buttonDeveloperSettings").textContent = "OFF";
     }
->>>>>>> Stashed changes
+    if(localStorage.getItem("SecondaryColor")){
 
-    let r = parseInt(hexColor.substring(0, 2), 16);
-    let g = parseInt(hexColor.substring(2, 4), 16);
-    let b = parseInt(hexColor.substring(4, 6), 16); 
-    console.log(r + "," + g + "," + b);
+            let hexColor = localStorage.getItem("SecondaryColor");
+    hexColor = hexColor.replace('#', '');
 
-    window.chrome.webview.hostObjects.dotnet.UpdateFrameStyle(r + "," + g + "," + b);
+        console.log(hexColor);
+        let r = parseInt(hexColor.substring(0, 2), 16);
+        let g = parseInt(hexColor.substring(2, 4), 16);
+        let b = parseInt(hexColor.substring(4, 6), 16); 
+        console.log(r + "," + g + "," + b);
+
+        window.chrome.webview.hostObjects.dotnet.UpdateFrameStyle(r + "," + g + "," + b);
+    }
     //Validate Styles
     const root = document.documentElement;
 
@@ -1175,8 +1219,8 @@ async function SetupBrmm(){
 
 
     try{
-        const filteredMods = filterAndSortMods(mods_prased.mods, "", "Follows", "1.8", false);
-        const filteredModpack = filterAndSortMods(mods_prased.mods, "", "Follows", "1.8", true);
+        const filteredMods = filterAndSortMods(mods_prased.mods, "", "Follows", "ALL", "ALL",false);
+        const filteredModpack = filterAndSortMods(mods_prased.mods, "", "Follows", "ALL", "ALL",true);
         filteredMods.forEach(mod => {
             document.getElementById("CardsHolder").appendChild(createCard(mod,mod.name,mod.img,mod.background,mod.follows,mod.downloads,mod.description,mod.tags,mod.ownerid,mod.permamenturl,mod.organizationid,0,mod.modpack,""));
             if(mod.modpack != "true"){
@@ -1537,7 +1581,7 @@ function NextPageFirstTimeBRMM(id){
                 </div>
             </div>
             <div style="display: flex; justify-content: space-between;">
-                <p style="text-align: center; margin-bottom: 7px;">Version v0.3.1-alpha</p>
+                <p style="text-align: center; margin-bottom: 7px;">Version v0.4.4-alpha</p>
                 <button onclick="NextPageFirstTimeBRMM(1)" style="background-color: #06c238; color: var(--text-main);">Next</button>
             </div>
             `;
@@ -1561,7 +1605,7 @@ function NextPageFirstTimeBRMM(id){
                     </div>
                 </div>
             <div style="display: flex; justify-content: space-between;">
-                <p style="text-align: center; margin-bottom: 7px;">Version v0.3.1-alpha</p>
+                <p style="text-align: center; margin-bottom: 7px;">Version v0.4.4-alpha</p>
                 <button onclick="ApplySettingstart()" style="background-color: #06c238; color: var(--text-main);">confirm</button>
             </div>
             `;
@@ -1658,6 +1702,20 @@ function managemods(mod) {
     }
 }
 
+function populateSelect(selectId, optionsArray) {
+    const select = document.getElementById(selectId);
+    if (!select) return;
+
+    select.innerHTML = select.options.length ? select.options[0].outerHTML : "";
+
+    optionsArray.forEach(opt => {
+        const option = document.createElement("option");
+        option.value = opt;
+        option.textContent = opt;
+        select.appendChild(option);
+    });
+}
+
 //Setup Brmm data
 
 function SetAllUsers(AllUsers_cr) {
@@ -1669,6 +1727,31 @@ function SetModpacksLocal(modpacks_c){
     ModPacksLocal_g = modpacks_c
     localStorage.setItem("ModPacksLocal", modpacks_c);
 }
+
+function SetTagsVersions(tagsversions) {
+    try {
+        const data = JSON.parse(tagsversions);
+        const payload = Array.isArray(data) ? data[0] : data;
+
+        if (!payload?.tags || !payload?.versions) {
+            console.error("Invalid payload", payload);
+            return;
+        }
+
+        localStorage.setItem("tags", JSON.stringify(payload.tags));
+        localStorage.setItem("versions", JSON.stringify(payload.versions));
+        populateSelect("Version" ,payload.versions);
+        populateSelect("versionSelect_Search_Mods" ,payload.versions);
+        populateSelect("TagsSelect_Search_Mods" ,payload.tags);
+        populateSelect("versionSelect_Library_Modpacks" ,payload.versions);
+
+        console.log("Saved tags:", payload.tags);
+        console.log("Saved versions:", payload.versions);
+    } catch (err) {
+        console.error("SetTagsVersions error:", err, tagsversions);
+    }
+}
+
 
 function SetMods(mods_c){
     mods_g = mods_c
@@ -2495,7 +2578,8 @@ button{
 }
 
 #searchInput_Search_Mods{
-    width: calc(100% - 720px);
+    width: calc(100% - 730px);
+    margin-right: 10px;
 }
 
 

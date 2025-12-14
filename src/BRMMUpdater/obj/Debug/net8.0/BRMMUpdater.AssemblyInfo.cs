@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BRMMUpdater")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+307373f00ba28535f6787f83e856f4b056e4e278")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3ccdc4e84d5698fc2aaab4c306c57081a8050744")]
 [assembly: System.Reflection.AssemblyProductAttribute("BRMMUpdater")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BRMMUpdater")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

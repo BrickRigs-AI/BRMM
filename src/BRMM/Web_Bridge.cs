@@ -253,7 +253,7 @@ namespace BRMM
 
         public void updateBRMM()
         {
-            string url = "https://github.com/BrickRigs-AI/BRMM/releases/download/v0.4.3-alpha-merge/Updater.zip";
+            string url = "https://github.com/BrickRigs-AI/BRMM/releases/download/v0.4.4-alpha-merge/Updater.zip";
 
             string appStartupPath = Application.StartupPath;
 
