@@ -53,4 +53,4 @@ Any BRMK modder can upload their mod to BRMM via [this website](https://beta.brm
 
 ## Credits:
 - [TLM](https://github.com/anonymous-editor): For creating the first BRMM and giving the idea behind it.
-- Akizek: For making ss for brmm.
+- [Akizek](https://github.com/xAkizek): For making ss for BRMM.
