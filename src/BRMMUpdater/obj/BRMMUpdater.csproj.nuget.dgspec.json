@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\StevToPL\\Desktop\\new site btmm gitea 2\\brmm\\BRMMUpdater\\BRMMUpdater.csproj": {}
+    "C:\\Users\\StevToPL\\Documents\\GitHub\\BRMM\\src\\BRMMUpdater\\BRMMUpdater.csproj": {}
   },
   "projects": {
-    "C:\\Users\\StevToPL\\Desktop\\new site btmm gitea 2\\brmm\\BRMMUpdater\\BRMMUpdater.csproj": {
+    "C:\\Users\\StevToPL\\Documents\\GitHub\\BRMM\\src\\BRMMUpdater\\BRMMUpdater.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\StevToPL\\Desktop\\new site btmm gitea 2\\brmm\\BRMMUpdater\\BRMMUpdater.csproj",
+        "projectUniqueName": "C:\\Users\\StevToPL\\Documents\\GitHub\\BRMM\\src\\BRMMUpdater\\BRMMUpdater.csproj",
         "projectName": "BRMMUpdater",
-        "projectPath": "C:\\Users\\StevToPL\\Desktop\\new site btmm gitea 2\\brmm\\BRMMUpdater\\BRMMUpdater.csproj",
+        "projectPath": "C:\\Users\\StevToPL\\Documents\\GitHub\\BRMM\\src\\BRMMUpdater\\BRMMUpdater.csproj",
         "packagesPath": "C:\\Users\\StevToPL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\StevToPL\\Desktop\\new site btmm gitea 2\\brmm\\BRMMUpdater\\obj\\",
+        "outputPath": "C:\\Users\\StevToPL\\Documents\\GitHub\\BRMM\\src\\BRMMUpdater\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -27,7 +27,6 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "C:\\Users\\StevToPL\\AppData\\Roaming\\Cosmos User Kit\\packages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -46,7 +45,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -67,7 +66,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100-rc.2.25502.107/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
